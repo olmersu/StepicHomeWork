@@ -3,10 +3,11 @@ package com.BasicJava.TextAnalyzer;
 /**
  * Created by bogomolov on 19.09.2016.
  */
-public class SpamAnalyzer extends KeywordAnalyzer implements TextAnalyzer{
+public class SpamAnalyzer extends KeywordAnalyzer {
+    private String [] keywords;
 
-    public SpamAnalyzer(String[] keyWords) {
-        super(keyWords);
+    public SpamAnalyzer(String[] keywords) {
+        this.keywords = keywords;
     }
 
     @Override
@@ -18,6 +19,11 @@ public class SpamAnalyzer extends KeywordAnalyzer implements TextAnalyzer{
             }
         }
         return Label.OK;
+    }
+
+    @Override
+    protected String[] getKeywords() {
+        return this.keywords;
     }
 
     @Override

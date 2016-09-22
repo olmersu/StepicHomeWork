@@ -3,7 +3,8 @@ package com.BasicJava.TextAnalyzer;
 /**
  * Created by olmer on 19.09.16.
  */
-public class NegativeTextAnalyzer extends KeywordAnalyzer implements TextAnalyzer{
+public class NegativeTextAnalyzer extends KeywordAnalyzer {
+    final private String [] keyWords = {";(","=(",":|"};
 
     public NegativeTextAnalyzer() {
     }
@@ -14,6 +15,11 @@ public class NegativeTextAnalyzer extends KeywordAnalyzer implements TextAnalyze
             return this.getLabel();
         }
         return Label.OK;
+    }
+
+    @Override
+    protected String[] getKeywords() {
+        return this.keyWords;
     }
 
     @Override
