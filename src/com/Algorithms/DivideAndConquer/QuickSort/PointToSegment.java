@@ -72,39 +72,50 @@ public class PointToSegment {
 //            pointArr[i]=in.nextInt();
 //        }
 
-        int segmentCount = 50000;
-        int pointCount = 50000;
+        int segmentCount = 5;
+        int pointCount = 5;
         Segment [] segmentArrL = new Segment [segmentCount];
         Segment [] segmentArrR = new Segment [segmentCount];
         int [] pointArr = new int [pointCount];
         Random rand = new Random();
-        for (int i = 0; i < segmentCount; i+=50000) {
-            Segment temp = new Segment(rand.nextInt((int) 1e8),rand.nextInt((int) 1e8));
-            int tmp = rand.nextInt((int) 1e8);
-            for (int j = i; j < i+50000; j++) {
-                segmentArrL[j]=temp;
-                segmentArrR[j]=temp;
-                pointArr[j] = tmp;
-            }
+        Segment temp = new Segment(0,0);
+        for (int i = 0; i < segmentCount; i++) {
+            int x1=rand.nextInt((int) 10);
+            int x2=rand.nextInt((int) 10);
+            if (x1<x2) temp = new Segment(x1,x2);
+            if (x1>x2) temp = new Segment(x2,x1);
+            if (x1==x2) temp = new Segment(x1,x2+5);
+            int tmp = rand.nextInt((int) 10);
+//            for (int j = i; j < i+1000; j++) {
+                segmentArrL[i]=temp;
+                System.out.println(temp.getx1()+" "+temp.getx2());
+                segmentArrR[i]=temp;
+                pointArr[i] = tmp;
+//            }
+        }
+        for (int i = 0; i < pointCount; i++) {
+            System.out.println(pointArr[i]);
         }
         long startTime = System.currentTimeMillis();
         for (int i = 0; i < pointCount; i++) {
-            search(segmentArrL,pointArr[i]);
+
+            System.out.print(search(segmentArrL,pointArr[i])+" ");
         }
+        System.out.print("\n");
         long finishTime = System.currentTimeMillis();
         System.out.println("Search time" + (finishTime - startTime) + " ms");
         startTime = System.currentTimeMillis();
-        quickSorting(segmentArrL,0,segmentCount-1, new SortedByX1());
-        quickSorting(segmentArrR,0,segmentCount-1, new SortedByX2());
+        quickSorting3(segmentArrL,0,segmentCount-1, new SortedByX1());
+        quickSorting3(segmentArrR,0,segmentCount-1, new SortedByX2());
         finishTime = System.currentTimeMillis();
         System.out.println("QuickSort time" + (finishTime - startTime) + " ms");
         startTime = System.currentTimeMillis();
         for (int i = 0; i < pointCount; i++) {
-            int m = binarySearch(segmentArrL,new Segment(pointArr[i],0),new SortedByX1());
-            int k = binarySearch(segmentArrR,new Segment(0,pointArr[i]),new SortedByX2());
-            //System.out.print((m-k)+" ");
+            int m = binarySearch(segmentArrL,new Segment(pointArr[i],pointArr[i]),new SortedByX1());
+            int k = binarySearch(segmentArrR,new Segment(pointArr[i],pointArr[i]),new SortedByX2());
+            System.out.print((m-k)+" ");
         }
-        System.out.println("\n");
+        System.out.print("\n");
         finishTime = System.currentTimeMillis();
         System.out.println("search time" + (finishTime - startTime) + " ms");
     }
@@ -146,11 +157,59 @@ public class PointToSegment {
         return j;
     }
 
+    private Segment [] quickSorting3(Segment [] arr3, int l, int r, Comparator<Segment> cmpr){
+        if (l>=r) return arr3;
+        int [] m;
+        while (l<r) {
+            m = partition3(arr3, l, r, cmpr);
+            if (m[0]-l>r-m[1]){
+                arr3 = quickSorting3(arr3, m[1] + 1, r, cmpr);
+                r = m[0] - 1;
+            }
+            else{
+                arr3 = quickSorting3(arr3, l, m[0] - 1, cmpr);
+                l = m[1] + 1;
+            }
+        }
+        return arr3;
+    }
+
+    private int[] partition3 (Segment [] arr, int l, int r, Comparator<Segment> cmpr){
+        Random rand = new Random();
+        int m = rand.nextInt(r-l)+l;
+        Segment tmp = arr[m];
+        arr[m]=arr[l];
+        arr[l]=tmp;
+        int j = l;
+        for (int i = l+1; i <= r; i++) {
+            if (cmpr.compare(arr[i],arr[l])<=0){
+                j++;
+                tmp = arr[i];
+                arr[i]=arr[j];
+                arr[j]=tmp;
+            }
+        }
+        tmp = arr[j];
+        arr[j]=arr[l];
+        arr[l]=tmp;
+
+        int jm = j;
+        for (int i = j-1; i >= l; i--) {
+            if (cmpr.compare(arr[i],arr[j])==0){
+                jm--;
+                tmp = arr[i];
+                arr[i]=arr[jm];
+                arr[jm]=tmp;
+            }
+        }
+        return new int[] {jm,j};
+    }
+
     private int search(Segment [] arr, int point){
         int j = 0;
         for (int i = 0; i < arr.length ; i++) {
-            if (arr[i].getx1()<point){
-                if (arr[i].getx2()>point){
+            if (arr[i].getx1()<=point){
+                if (arr[i].getx2()>=point){
                     j++;
                 }
             }
