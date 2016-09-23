@@ -37,16 +37,35 @@ public class PointToSegment {
             this.x2=x2;
         }
     }
-    class SortedByX1 implements Comparator<Segment>{
+
+    interface CompareSegments<T>{
+        public int compare(T o1, T o2);
+        public int similar(T[] arr, int m);
+    }
+    class SortedByX1 implements CompareSegments<Segment>{
         @Override
         public int compare(Segment o1, Segment o2) {
             return o1.getx1()-o2.getx1();
         }
+        @Override
+        public int similar(Segment[] arr, int m) {
+            while (m+1 < arr.length && compare(arr[m],arr[m+1])==0){
+                m++;
+            }
+            return m;
+        }
     }
-    class SortedByX2 implements Comparator<Segment>{
+    class SortedByX2 implements CompareSegments<Segment>{
         @Override
         public int compare(Segment o1, Segment o2) {
             return o1.getx2()-o2.getx2();
+        }
+        @Override
+        public int similar(Segment[] arr, int m) {
+            while (m-1 >= 0 && compare(arr[m],arr[m-1])==0){
+                m--;
+            }
+            return m-1<0?-1:m-1;
         }
     }
 
@@ -58,41 +77,41 @@ public class PointToSegment {
     }
 
     private void run() {
-//        Scanner in = new Scanner(System.in);
-//        int segmentCount = in.nextInt();
-//        int pointCount = in.nextInt();
-//        Segment [] segmentArrL = new Segment [segmentCount];
-//        Segment [] segmentArrR = new Segment [segmentCount];
-//        int [] pointArr = new int [pointCount];
-//        for (int i = 0; i < segmentCount; i++) {
-//            segmentArrL[i] = new Segment(in.nextInt(),in.nextInt());
-//            segmentArrR[i] = segmentArrL[i];
-//        }
-//        for (int i = 0; i < pointCount; i++) {
-//            pointArr[i]=in.nextInt();
-//        }
-
-        int segmentCount = 5;
-        int pointCount = 5;
+        Scanner in = new Scanner(System.in);
+        int segmentCount = in.nextInt();
+        int pointCount = in.nextInt();
         Segment [] segmentArrL = new Segment [segmentCount];
         Segment [] segmentArrR = new Segment [segmentCount];
         int [] pointArr = new int [pointCount];
-        Random rand = new Random();
-        Segment temp = new Segment(0,0);
         for (int i = 0; i < segmentCount; i++) {
-            int x1=rand.nextInt((int) 10);
-            int x2=rand.nextInt((int) 10);
-            if (x1<x2) temp = new Segment(x1,x2);
-            if (x1>x2) temp = new Segment(x2,x1);
-            if (x1==x2) temp = new Segment(x1,x2+5);
-            int tmp = rand.nextInt((int) 10);
-//            for (int j = i; j < i+1000; j++) {
-                segmentArrL[i]=temp;
-                System.out.println(temp.getx1()+" "+temp.getx2());
-                segmentArrR[i]=temp;
-                pointArr[i] = tmp;
-//            }
+            segmentArrL[i] = new Segment(in.nextInt(),in.nextInt());
+            segmentArrR[i] = segmentArrL[i];
         }
+        for (int i = 0; i < pointCount; i++) {
+            pointArr[i]=in.nextInt();
+        }
+
+//        int segmentCount = 20;
+//        int pointCount = 20;
+//        Segment [] segmentArrL = new Segment [segmentCount];
+//        Segment [] segmentArrR = new Segment [segmentCount];
+//        int [] pointArr = new int [pointCount];
+//        Random rand = new Random();
+//        Segment temp = new Segment(0,0);
+//        for (int i = 0; i < segmentCount; i++) {
+//            int x1=rand.nextInt((int) 20);
+//            int x2=rand.nextInt((int) 20);
+//            if (x1<x2) temp = new Segment(x1,x2);
+//            if (x1>x2) temp = new Segment(x2,x1);
+//            if (x1==x2) temp = new Segment(x1,x2+5);
+//            int tmp = rand.nextInt((int) 20);
+////            for (int j = i; j < i+1000; j++) {
+//                segmentArrL[i]=temp;
+//                System.out.println(temp.getx1()+" "+temp.getx2());
+//                segmentArrR[i]=temp;
+//                pointArr[i] = tmp;
+////            }
+//        }
         for (int i = 0; i < pointCount; i++) {
             System.out.println(pointArr[i]);
         }
@@ -103,12 +122,12 @@ public class PointToSegment {
         }
         System.out.print("\n");
         long finishTime = System.currentTimeMillis();
-        System.out.println("Search time" + (finishTime - startTime) + " ms");
+//        System.out.println("Search time" + (finishTime - startTime) + " ms");
         startTime = System.currentTimeMillis();
         quickSorting3(segmentArrL,0,segmentCount-1, new SortedByX1());
         quickSorting3(segmentArrR,0,segmentCount-1, new SortedByX2());
         finishTime = System.currentTimeMillis();
-        System.out.println("QuickSort time" + (finishTime - startTime) + " ms");
+//        System.out.println("QuickSort time" + (finishTime - startTime) + " ms");
         startTime = System.currentTimeMillis();
         for (int i = 0; i < pointCount; i++) {
             int m = binarySearch(segmentArrL,new Segment(pointArr[i],pointArr[i]),new SortedByX1());
@@ -157,7 +176,7 @@ public class PointToSegment {
         return j;
     }
 
-    private Segment [] quickSorting3(Segment [] arr3, int l, int r, Comparator<Segment> cmpr){
+    private Segment [] quickSorting3(Segment [] arr3, int l, int r, CompareSegments<Segment> cmpr){
         if (l>=r) return arr3;
         int [] m;
         while (l<r) {
@@ -174,7 +193,7 @@ public class PointToSegment {
         return arr3;
     }
 
-    private int[] partition3 (Segment [] arr, int l, int r, Comparator<Segment> cmpr){
+    private int[] partition3 (Segment [] arr, int l, int r, CompareSegments<Segment> cmpr){
         Random rand = new Random();
         int m = rand.nextInt(r-l)+l;
         Segment tmp = arr[m];
@@ -217,13 +236,13 @@ public class PointToSegment {
         return j;
     }
 
-    private int binarySearch(Segment[] arr, Segment key, Comparator<Segment> cmpr) {
+    private int binarySearch(Segment[] arr, Segment key, CompareSegments<Segment> cmpr) {
         int r = arr.length-1;
         int l = 0;
         int m=(l + r) / 2;;
         while (l <= r) {
             m = (l + r) / 2;
-            if (cmpr.compare(key,arr[m])==0) return m;
+            if (cmpr.compare(key,arr[m])==0) return cmpr.similar(arr, m);
             if (cmpr.compare(key,arr[m])<0) r = m - 1;
             if (cmpr.compare(key,arr[m])>0) l = m + 1;
         }
