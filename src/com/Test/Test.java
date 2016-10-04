@@ -1,6 +1,13 @@
 package com.Test;
 
+import sun.nio.cs.US_ASCII;
+
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 /**
  * Created by olmer on 19.09.16.
@@ -32,9 +39,10 @@ public class Test {
         System.out.println(finishTime - startTime + " ms");
     }
 
-    private void run() {
-        System.out.println(ClassA.class.getName());
-    }
-    }
+    private void run() throws IOException {
 
-//java.lang.ClassCastException
+        Writer writer = new OutputStreamWriter(Files.newOutputStream(Paths.get("output.txt")), StandardCharsets.US_ASCII);
+        writer.write("Ы");
+        writer.flush();
+    }
+}
