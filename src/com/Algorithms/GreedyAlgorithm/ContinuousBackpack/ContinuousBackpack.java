@@ -66,7 +66,7 @@ public class ContinuousBackpack {
     }
 }
 
-class Thing implements Comparable<Thing>{
+class  Thing implements Comparable<Thing>{
     int x1; //cost
     int x2; //volume
     public Thing(int x1, int x2){

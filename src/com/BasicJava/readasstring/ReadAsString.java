@@ -27,15 +27,23 @@ public class ReadAsString {
     }
 
     private void run() throws IOException {
-        Integer readBuf;
-        Integer readBufPrev = null;
-        byte[] data = {120, 121, 122, 123};
+//        byte[] data = {120, 121, 122, 123};
+        byte[] data = {48, 49, 50, 51};
         System.setIn(new ByteArrayInputStream(data));
-        System.out.println(readAsString(System.in, StandardCharsets.US_ASCII));
+        System.setOut(new PrintStream(Files.newOutputStream(Paths.get("output.txt"))));
+        System.out.print(readAsString(System.in, StandardCharsets.US_ASCII));
     }
 
     public static String readAsString(InputStream inputStream, Charset charset) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream,charset));
-        return reader.readLine();
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream,charset));
+        InputStreamReader inputStreamReader = new InputStreamReader(inputStream,charset);
+        String out = new String();
+        int buf;
+        int blockSize;
+        while((buf = inputStreamReader.read()) > 0){
+            out+=String.valueOf((char)buf);
+        }
+//        return reader.readLine();
+        return out;
     }
 }
