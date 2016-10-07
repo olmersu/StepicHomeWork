@@ -13,5 +13,6 @@ public class Test {
     }
 
     private void run() {
+        System.out.println((int)2e9);
     }
 }

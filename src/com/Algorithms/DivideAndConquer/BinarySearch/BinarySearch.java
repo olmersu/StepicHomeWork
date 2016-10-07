@@ -51,11 +51,50 @@ public class BinarySearch {
         int r = arr.length;
         int l = 1;
         while (l <= r) {
-            int m = (l + r) / 2;
+            int m = (l + r) >> 1; //сдвиг вправо на 1 бит работает быстрее, чем операция деления на 2
             if (key == arr[m - 1]) return m;
             if (key < arr[m - 1]) r = m - 1;
             if (key > arr[m - 1]) l = m + 1;
         }
         return -1;
     }
+// двоичный поиск индекса левой границы группы одинаковых членов массива.
+// либо поиск ближайшего элемента справа, если такого элемента в массиве нет
+    private int binarySearchLeftBorder(int[] arr, int key) {
+        int r = arr.length;
+        int l = - 1;
+        //инвариант
+        //arr[l] < x
+        //arr[r] >= x
+        while (l + 1 < r) {
+            int m = (l + r) >> 1; //сдвиг вправо на 1 бит работает быстрее, чем операция деления на 2
+            if (key > arr[m]) l = m;
+            else r = m;
+        }
+        if (r < arr.length && arr[r] == key) return r + 1;
+        else return -1;
+// для получения ближайшего элмента справа необходимо без всяких условий возвращать:
+//        return r + 1;
+    }
+
+    // двоичный поиск индекса правой границы группы одинаковых членов массива.
+// либо поиск ближайшего элемента слева, если такого элемента в массиве нет
+    private int binarySearchRightBorder(int[] arr, int key) {
+        int r = arr.length;
+        int l = - 1;
+        //инвариант
+        //arr[l] <= x
+        //arr[r] > x
+        while (l + 1 < r) {
+            int m = (l + r) >> 1; //сдвиг вправо на 1 бит работает быстрее, чем операция деления на 2
+            if (key >= arr[m]) l = m;
+            else r = m;
+        }
+        if (r >= 0 && arr[l] == key) return l + 1;
+        else return -1;
+// для получения ближайшего элемента слева необходимо без всяких условий возвращать:
+//        return l + 1;
+    }
+
+
 }
