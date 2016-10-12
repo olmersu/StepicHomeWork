@@ -10,6 +10,8 @@ import com.Test.Timer;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 
 
 public class LNISBottomUp {
@@ -25,7 +27,7 @@ public class LNISBottomUp {
     }
 
     private void run() throws IOException {
-        BufferedReader in = new BufferedReader(new FileReader("input.txt"));
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(in.readLine());
         int[] arr = new int[n];
         int i = 0;
@@ -46,19 +48,18 @@ public class LNISBottomUp {
         for (int i = 0; i < n; i++) {
             if (maxN < arr[i]) maxN = arr[i];
         }
-        int[][] arrD = new int[2][n];
-        arrD[0][0] = maxN+1;
-        arrD[1][0] = -1;
-        for (int i = 1; i < n; i++) {
-            arrD[0][i] = -1;
-            arrD[1][i] = -1;
-        }
-        int [] arrParent = new int[n];
+        int[][] arrD = new int[2][n+1];
+        arrD[0][n] = -1;
         for (int i = 0; i < n; i++) {
-            int j = binarySearchRightBorder(arrD[0], arr[i]);
-            if (arrD[0][j-1] >= arr[i] && arr[i] > arrD[0][j]) {
+            arrD[0][i] = maxN+1;
+        }
+        Arrays.fill(arrD[1],-1);
+        int [] arrParent = new int[n];
+        for (int i = n-1; i >= 0; i--) {
+            int j = binarySearchLeftBorder(arrD[0], arr[i]);
+            if (arrD[0][j] > arr[i] && arr[i] >= arrD[0][j+1]) {
                 arrD[0][j] = arr[i];
-                arrParent[i] = arrD[1][j-1];
+                arrParent[i] = arrD[1][j+1];
                 arrD[1][j] = i;
             }
         }
@@ -67,15 +68,18 @@ public class LNISBottomUp {
         }
         System.out.println();
         int k = 0;
-        for (k = 1; (k < n)&&(arrD[0][k]<maxN+1); k++) {}
-        System.out.println(k-1);
+        int amount = 0;
+        for (k = n-2; (k >= 0)&&(arrD[0][k] < maxN+1); k--) {
+            amount++;
+        }
+        System.out.println(amount+1);
         for (int i = 0; i < n; i++) {
             if (arrD[1][i]!=-1) {
                 System.out.println(arrD[1][i]+": "+arrD[0][i] + " ");
             }
         }
-        int j = arrD[1][k-1];
-        for (int i = k-1; (i > 0)&&(j>=0); i--) {
+        int j = arrD[1][k+1];
+        for (int i = k+1; (i < n)&&(j<n); i++) {
             System.out.print(j+" ");
             j=arrParent[j];
         }
@@ -87,21 +91,10 @@ public class LNISBottomUp {
         int l = - 1;
         while (l + 1 < r) {
             int m = (l + r) >> 1;
-            if (key >= arr[m]) l = m;
-            else r = m;
+            if (key >= arr[m]) r = m;
+            else l = m;
         }
-        return l + 1;
+        return l;
     }
-    private int binarySearchRightBorder(int[] arr, int key) {
-        int r = arr.length;
-        int l = - 1;
-        while (l + 1 < r) {
-            int m = (l + r) >> 1;
-            if (key <= arr[m]) l = m;
-            else r = m;
-        }
-        return r;
-    }
-
 }
 

@@ -1,7 +1,7 @@
 package com.BasicJava;
 
 /**
- * Created by bogomolov on 28.09.2016.
+ * Created by bogomolov on 12.10.2016.
  */
 public class ClassC {
 }

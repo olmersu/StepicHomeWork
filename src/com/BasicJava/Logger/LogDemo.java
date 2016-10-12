@@ -1,5 +1,4 @@
 package com.BasicJava.Logger;
-import com.BasicJava.ClassC;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
