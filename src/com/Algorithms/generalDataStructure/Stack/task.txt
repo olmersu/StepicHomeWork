@@ -1,0 +1,14 @@
+Расстановка скобок в коде
+
+Sample Input 1:
+([](){([])})
+Sample Output 1:
+Success
+Sample Input 2:
+()[]}
+Sample Output 2:
+5
+Sample Input 3:
+{{[()]]
+Sample Output 3:
+7
