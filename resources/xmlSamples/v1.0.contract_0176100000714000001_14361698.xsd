@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://zakupki.gov.ru/oos/types/1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="number" type="xs:string"/>
+  <xs:element name="regNum" type="xs:string"/>
+  <xs:element name="price" type="xs:string"/>
+  <xs:element name="currency" type="ns:currencyType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="id" type="xs:string"/>
+  <xs:element name="href" type="xs:string"/>
+  <xs:element name="singleCustomerReason" type="ns:singleCustomerReasonType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="finances" type="ns:financesType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="currentContractStage" type="xs:string"/>
+  <xs:element name="customer" type="ns:customerType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="suppliers" type="ns:suppliersType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="publishDate" type="xs:string"/>
+  <xs:element name="executionDate" type="ns:executionDateType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="foundation" type="ns:foundationType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="signDate" type="xs:string"/>
+  <xs:element name="modification" type="ns:modificationType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="versionNumber" type="xs:string"/>
+  <xs:element name="products" type="ns:productsType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:element name="printForm" type="ns:printFormType" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+  <xs:complexType name="OKPDType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="code"/>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="singleCustomerReasonType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="suppliersType">
+    <xs:sequence>
+      <xs:element type="ns:supplierType" name="supplier" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="customerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="regNum"/>
+      <xs:element type="xs:string" name="fullName"/>
+      <xs:element type="xs:string" name="inn"/>
+      <xs:element type="xs:string" name="kpp"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="foundationType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="singleCustomer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="productsType">
+    <xs:sequence>
+      <xs:element type="ns:productType" name="product" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="supplierType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="participantType"/>
+      <xs:element type="xs:string" name="inn"/>
+      <xs:element type="xs:string" name="kpp"/>
+      <xs:element type="xs:string" name="organizationName"/>
+      <xs:element type="ns:countryType" name="country" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+      <xs:element type="xs:string" name="factualAddress"/>
+      <xs:element type="xs:string" name="postAddress"/>
+      <xs:element type="xs:string" name="contactPhone"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="executionDateType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="month"/>
+      <xs:element type="xs:string" name="year"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="productType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="sid"/>
+      <xs:element type="ns:OKPDType" name="OKPD" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="ns:OKEIType" name="OKEI" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+      <xs:element type="xs:string" name="price"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="currencyType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="code"/>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="budgetType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="code"/>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="financesType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="financeSource"/>
+      <xs:element type="ns:budgetType" name="budget" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+      <xs:element type="xs:string" name="budgetLevel"/>
+      <xs:element type="ns:budgetaryType" name="budgetary" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OKEIType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="code"/>
+      <xs:element type="xs:string" name="nationalCode"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="budgetaryType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="month"/>
+      <xs:element type="xs:string" name="year"/>
+      <xs:element type="xs:string" name="substageMonth"/>
+      <xs:element type="xs:string" name="substageYear"/>
+      <xs:element type="xs:string" name="KBK"/>
+      <xs:element type="xs:string" name="price"/>
+      <xs:element type="xs:string" name="comment"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signatureType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="printFormType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="url"/>
+      <xs:element type="ns:signatureType" name="signature" xmlns:ns="http://zakupki.gov.ru/oos/types/1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificationType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="type"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="countryType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="countryCode"/>
+      <xs:element type="xs:string" name="countryFullName"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

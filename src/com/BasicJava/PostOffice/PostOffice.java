@@ -1,8 +1,5 @@
 package com.BasicJava.PostOffice;
 
-import javafx.geometry.Pos;
-import sun.rmi.runtime.Log;
-
 import java.util.logging.*;
 
 /**

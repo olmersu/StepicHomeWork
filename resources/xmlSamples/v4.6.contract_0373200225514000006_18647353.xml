@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:export xmlns="http://zakupki.gov.ru/oos/types/1" xmlns:ns2="http://zakupki.gov.ru/oos/export/1" xmlns:ns3="http://zakupki.gov.ru/oos/printform/1">
+    <ns2:contract schemeVersion="4.6">
+        <id>18647353</id>
+        <externalId>302416674</externalId>
+        <regNum>0373200225514000006</regNum>
+        <number>824/2-537-Э/2015</number>
+        <publishDate>2014-12-23T09:12:30.506+03:00</publishDate>
+        <signDate>2014-12-22+03:00</signDate>
+        <versionNumber>0</versionNumber>
+        <foundation>
+            <singleCustomer>true</singleCustomer>
+        </foundation>
+        <customer>
+            <regNum>03732002255</regNum>
+            <fullName>Государственное бюджетное образовательное учреждение города Москвы средняя общеобразовательная школа с углубленным изучением отдельных предметов № 1073</fullName>
+            <inn>7724828553</inn>
+            <kpp>772401001</kpp>
+        </customer>
+        <documentBase>-</documentBase>
+        <price>188996.28</price>
+        <currency>
+            <code>RUB</code>
+            <name>Российский рубль</name>
+        </currency>
+        <singleCustomerReason>
+            <id>8361008</id>
+            <name>Часть 1 пункт 22 статьи 93 – заключение контракта управления многоквартирным домом на основании решения общего собрания собственников помещений в многоквартирном доме или открытого конкурса, проводимого органом местного самоуправления в соответствии с жилищным законодательством, управляющей компанией, если помещения в многоквартирном доме находятся в частной, государственной или муниципальной собственности</name>
+        </singleCustomerReason>
+        <executionDate>
+            <month>12</month>
+            <year>2015</year>
+        </executionDate>
+        <finances>
+            <financeSource>ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ СРЕДНЯЯ ОБЩЕОБРАЗОВАТЕЛЬНАЯ ШКОЛА  С УГЛУБЛЕННЫМ ИЗУЧЕНИЕМ ОТДЕЛЬНЫХ ПРЕДМЕТОВ № 1073</financeSource>
+            <extrabudgetary>
+                <month>12</month>
+                <year>2015</year>
+                <substageMonth>12</substageMonth>
+                <substageYear>2015</substageYear>
+                <KOSGU>225</KOSGU>
+                <price>188996.28</price>
+            </extrabudgetary>
+        </finances>
+        <products>
+            <product>
+                <sid>68468732</sid>
+                <OKPD>
+                    <code>70.32.13.621</code>
+                    <name>Работы по техническому обслуживанию (содержанию) многоквартирных жилых зданий</name>
+                </OKPD>
+                <name>Работы по техническому обслуживанию (содержанию) многоквартирных жилых зданий</name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>188996.28</price>
+                <quantity>1.0</quantity>
+                <sum>188996.28</sum>
+            </product>
+        </products>
+        <suppliers>
+            <supplier>
+                <participantType>U</participantType>
+                <inn>7725796400</inn>
+                <kpp>772501001</kpp>
+                <legalForm>
+                    <code>20903</code>
+                    <singularName>Бюджетное учреждение</singularName>
+                </legalForm>
+                <organizationName>Государственное бюджетное учреждение города Москвы "Жилищник района Нагатино-Садовники"</organizationName>
+                <country>
+                    <countryCode>643</countryCode>
+                    <countryFullName>Российская Федерация</countryFullName>
+                </country>
+                <factualAddress>Москва, 115533, ул. Нагатинский, д. 12</factualAddress>
+                <postAddress>Москва, 115533, ул. Нагатинский, д. 12</postAddress>
+                <contactEMail>null@null.ru</contactEMail>
+                <contactPhone>8-499-6148196</contactPhone>
+            </supplier>
+        </suppliers>
+        <href>http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=0373200225514000006</href>
+        <printForm>
+            <url>http://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=%s18647353</url>
+            <signature type="CAdES-BES">TUlJSmFBWUpLb1pJaHZjTkFRY0NvSUlKV1RDQ0NWVUNBUUV4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2daK01JSUdlakNDQmltZ0F3SUJBZ0lES0Vnbk1BZ0dCaXFGQXdJQ0F6Q0NBa014SVRBZkJna3Foa2lHOXcwQkNRRVdFblYxWTE5bWEwQnliM05yWVhwdVlTNXlkVEVpTUNBR0ExVUVDUXdaMFlQUXV5NGcwSmpRdTlHTTBMalF2ZEM2MExBZzBMUXVOekVaTUJjR0ExVUVCd3dRMExNdUlOQ2MwTDdSZ2RDNjBMTFFzREdCb2pDQm53WUpLb1pJaHZjTkFRa0NESUdSMEpUUXNOQzkwTDNSaTlDNUlOR0IwTFhSZ05HQzBMalJoTkM0MExyUXNOR0NJTkMrMFlMUXV0R0EwWXZSZ3RDKzBMUFF2aURRdXRDNzBZN1JoOUN3SU5DNDBZSFF2OUMrMEx2UmpOQzMwWVBRdGRHQzBZSFJqeURSZ2RDK0lOR0IwWURRdGRDMDBZSFJndEN5MEw3UXZDRFFvZENhMEpmUW1DRFFtdEdBMExqUXY5R0MwTDRnMEovUmdOQytJRU5UVURFTE1Ba0dBMVVFQmhNQ1VsVXhjakJ3QmdOVkJBc01hZENqMEwvUmdOQ3cwTExRdTlDMTBMM1F1TkMxSU5HQTBMWFF0dEM0MEx6UXNDRFJnZEMxMExyUmdOQzEwWUxRdmRDKzBZSFJndEM0SU5DNElOQ3gwTFhRdDlDKzBML1FzTkdCMEwzUXZ0R0IwWUxRdUNEUXVOQzkwWVRRdnRHQTBMelFzTkdHMExqUXVERTRNRFlHQTFVRUNnd3YwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRdFNEUXV0Q3cwTGZRdmRDdzBZZlF0ZEM1MFlIUmd0Q3kwTDR4ZnpCOUJnTlZCQU1NZHRDajBML1F2dEM3MEwzUXZ0QzgwTDdSaDlDMTBMM1F2ZEdMMExrZzBZUFF0TkMrMFlIUmd0QyswTExRdGRHQTBZL1JqdEdKMExqUXVTRFJodEMxMEwzUmd0R0FJTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBd0hoY05NVFF3TlRFMk1UQTFORE0xV2hjTk1UVXdOVEUyTVRBMU5ETTFXakNDQVhNeElUQWZCZ2txaGtpRzl3MEJDUUVXRW5OamFERXdOek5BYzJsdVpYSm5hUzV5ZFRFTE1Ba0dBMVVFQmhNQ1VsVXhHVEFYQmdOVkJBZ01FTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFaE1COEdBMVVFQ2d3WTBKUFFrZENlMEtNZzBLSFFudENvSU9LRWxpQXhNRGN6TVI4d0hRWURWUVFMREJiUW9OR0QwTHJRdnRDeTBMN1F0TkdCMFlMUXN0QytNUjh3SFFZRFZRUUxEQmJRb05HRDBMclF2dEN5MEw3UXROR0IwWUxRc3RDK01Td3dLZ1lEVlFRcURDUFFrdEN3MEx2UXRkQzkwWUxRdU5DOTBMQWcwSlhRczlDKzBZRFF2dEN5MEwzUXNERVpNQmNHQTFVRUJBd1EwSkRRdXRHQjBMWFF2ZEMrMExMUXNERWlNQ0FHQTFVRURBd1owSmd1MEw0dUlOQzAwTGpSZ05DMTBMclJndEMrMFlEUXNERTlNRHNHQTFVRUF3dzAwSkRRdXRHQjBMWFF2ZEMrMExMUXNDRFFrdEN3MEx2UXRkQzkwWUxRdU5DOTBMQWcwSlhRczlDKzBZRFF2dEN5MEwzUXNEQmpNQndHQmlxRkF3SUNFekFTQmdjcWhRTUNBaVFBQmdjcWhRTUNBaDRCQTBNQUJFQllObFEybHN2cjRiajJhUWRPQklUZ3hYQVpXZWtPM0R6bW5PdzhJbkNCYUtSN1Nod1hMZEtvbVNCSDNGVGZaSmpudHl3YmVPTzIwUFJITVVZcFdTMGNvNElCempDQ0Fjb3dEQVlEVlIwVEFRSC9CQUl3QURBWUJnTlZIU0FFRVRBUE1BMEdDeXFGQXdNOW50YzJBUUlDTUlIQUJnTlZIUkVFZ2Jnd2diV2dFZ1lEVlFRTW9Bc1RDVFF5T1RFeE1qY3hONkFZQmdncWhRTURnUU1CQWFBTUV3bzNOekkwT0RJNE5UVXpvQmtHQ2lxRkF3TTludGMyQVFlZ0N4TUpOemN5TkRBeE1EQXhvQnNHQ2lxRkF3TTludGMyQVFXZ0RSTUxNRE0zTXpJd01ESXlOVFdnRFFZSEtvVURBZUE1QWFBQ0V3Q2dEd1lKS29aSWh2Y05BUWtVb0FJVEFLQVFCZ29xaFFNRFBaN1hOZ0VJb0FJVEFLQVlCZ1VxaFFOa0FhQVBFdzB4TURJM056UTJNak01TkRNemhnRXdNQTRHQTFVZER3RUIvd1FFQXdJRDZEQlRCZ05WSFNVRVREQktCZ2dyQmdFRkJRY0RBZ1lPS29VREF6MmUxellCQmdNRUFRRUdEaXFGQXdNOW50YzJBUVlEQkFFQ0JnNHFoUU1EUFo3WE5nRUdBd1FCQXdZT0tvVURBejJlMXpZQkJnTUVBUVF3SHdZRFZSMGpCQmd3Rm9BVVo1MzdiKzlaT3ZNTElTazdnMWpERmcwUXc2SXdPQVlEVlIwZkJERXdMekF0b0N1Z0tZWW5hSFIwY0RvdkwyTnliQzV5YjNOcllYcHVZUzV5ZFM5amNtd3ZURUZUVkY5dVpYY3VZM0pzTUIwR0ExVWREZ1FXQkJUZSt6a2liYVVyaTBQaWVqbVp2OFpOUTJVdGJEQUlCZ1lxaFFNQ0FnTURRUUNxaCtNemRTcUJVdHQybGp3WHhncVY1Mm5VTTd4Qno1VS9YaTNXMEJoTEFkVHBwSG9CSGw0dHNCK3RmdFpXL3NnRDRiL3hmL2pVaGJHKytDYnhpZFVaTVlJQ3NUQ0NBcTBDQVFFd2dnSk1NSUlDUXpFaE1COEdDU3FHU0liM0RRRUpBUllTZFhWalgyWnJRSEp2YzJ0aGVtNWhMbkoxTVNJd0lBWURWUVFKREJuUmc5QzdMaURRbU5DNzBZelF1TkM5MExyUXNDRFF0QzQzTVJrd0Z3WURWUVFIREJEUXN5NGcwSnpRdnRHQjBMclFzdEN3TVlHaU1JR2ZCZ2txaGtpRzl3MEJDUUlNZ1pIUWxOQ3cwTDNRdmRHTDBMa2cwWUhRdGRHQTBZTFF1TkdFMExqUXV0Q3cwWUlnMEw3Umd0QzYwWURSaTlHQzBMN1FzOUMrSU5DNjBMdlJqdEdIMExBZzBMalJnZEMvMEw3UXU5R00wTGZSZzlDMTBZTFJnZEdQSU5HQjBMNGcwWUhSZ05DMTBMVFJnZEdDMExMUXZ0QzhJTkNoMEpyUWw5Q1lJTkNhMFlEUXVOQy8wWUxRdmlEUW45R0EwTDRnUTFOUU1Rc3dDUVlEVlFRR0V3SlNWVEZ5TUhBR0ExVUVDd3hwMEtQUXY5R0EwTERRc3RDNzBMWFF2ZEM0MExVZzBZRFF0ZEMyMExqUXZOQ3dJTkdCMExYUXV0R0EwTFhSZ3RDOTBMN1JnZEdDMExnZzBMZ2cwTEhRdGRDMzBMN1F2OUN3MFlIUXZkQyswWUhSZ3RDNElOQzQwTDNSaE5DKzBZRFF2TkN3MFliUXVOQzRNVGd3TmdZRFZRUUtEQy9RcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDMUlOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRdmpGL01IMEdBMVVFQXd4MjBLUFF2OUMrMEx2UXZkQyswTHpRdnRHSDBMWFF2ZEM5MFl2UXVTRFJnOUMwMEw3UmdkR0MwTDdRc3RDMTBZRFJqOUdPMFluUXVOQzVJTkdHMExYUXZkR0MwWUFnMEtUUXRkQzAwTFhSZ05DdzBMdlJqTkM5MEw3UXM5QytJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXNBSURLRWduTUFvR0JpcUZBd0lDQ1FVQU1Bb0dCaXFGQXdJQ0V3VUFCRURBK3pXak9Fc1J3V29uVEFUOXJxTU0rRGk2R1FiVEZRY29yVEVhdVZjRUs2RS8xdzA4MjJpOUR5bEdsS2NWOHAzQkVEdmFITHR6MU9kYXRZTTd1N1Zu</signature>
+        </printForm>
+        <scanDocuments>
+            <attachment>
+                <publishedContentId>98016370A2A2430BB14F8F940C591AF7</publishedContentId>
+                <fileName>Договор.pdf</fileName>
+                <docDescription>Договор.pdf</docDescription>
+                <url>http://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk/file.html?uid=98016370A2A2430BB14F8F940C591AF7</url>
+                <cryptoSigns>
+                    <signature type="CAdES-BES">TUlJSmFBWUpLb1pJaHZjTkFRY0NvSUlKV1RDQ0NWVUNBUUV4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2daK01JSUdlakNDQmltZ0F3SUJBZ0lES0Vnbk1BZ0dCaXFGQXdJQ0F6Q0NBa014SVRBZkJna3Foa2lHOXcwQkNRRVdFblYxWTE5bWEwQnliM05yWVhwdVlTNXlkVEVpTUNBR0ExVUVDUXdaMFlQUXV5NGcwSmpRdTlHTTBMalF2ZEM2MExBZzBMUXVOekVaTUJjR0ExVUVCd3dRMExNdUlOQ2MwTDdSZ2RDNjBMTFFzREdCb2pDQm53WUpLb1pJaHZjTkFRa0NESUdSMEpUUXNOQzkwTDNSaTlDNUlOR0IwTFhSZ05HQzBMalJoTkM0MExyUXNOR0NJTkMrMFlMUXV0R0EwWXZSZ3RDKzBMUFF2aURRdXRDNzBZN1JoOUN3SU5DNDBZSFF2OUMrMEx2UmpOQzMwWVBRdGRHQzBZSFJqeURSZ2RDK0lOR0IwWURRdGRDMDBZSFJndEN5MEw3UXZDRFFvZENhMEpmUW1DRFFtdEdBMExqUXY5R0MwTDRnMEovUmdOQytJRU5UVURFTE1Ba0dBMVVFQmhNQ1VsVXhjakJ3QmdOVkJBc01hZENqMEwvUmdOQ3cwTExRdTlDMTBMM1F1TkMxSU5HQTBMWFF0dEM0MEx6UXNDRFJnZEMxMExyUmdOQzEwWUxRdmRDKzBZSFJndEM0SU5DNElOQ3gwTFhRdDlDKzBML1FzTkdCMEwzUXZ0R0IwWUxRdUNEUXVOQzkwWVRRdnRHQTBMelFzTkdHMExqUXVERTRNRFlHQTFVRUNnd3YwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRdFNEUXV0Q3cwTGZRdmRDdzBZZlF0ZEM1MFlIUmd0Q3kwTDR4ZnpCOUJnTlZCQU1NZHRDajBML1F2dEM3MEwzUXZ0QzgwTDdSaDlDMTBMM1F2ZEdMMExrZzBZUFF0TkMrMFlIUmd0QyswTExRdGRHQTBZL1JqdEdKMExqUXVTRFJodEMxMEwzUmd0R0FJTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBd0hoY05NVFF3TlRFMk1UQTFORE0xV2hjTk1UVXdOVEUyTVRBMU5ETTFXakNDQVhNeElUQWZCZ2txaGtpRzl3MEJDUUVXRW5OamFERXdOek5BYzJsdVpYSm5hUzV5ZFRFTE1Ba0dBMVVFQmhNQ1VsVXhHVEFYQmdOVkJBZ01FTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFaE1COEdBMVVFQ2d3WTBKUFFrZENlMEtNZzBLSFFudENvSU9LRWxpQXhNRGN6TVI4d0hRWURWUVFMREJiUW9OR0QwTHJRdnRDeTBMN1F0TkdCMFlMUXN0QytNUjh3SFFZRFZRUUxEQmJRb05HRDBMclF2dEN5MEw3UXROR0IwWUxRc3RDK01Td3dLZ1lEVlFRcURDUFFrdEN3MEx2UXRkQzkwWUxRdU5DOTBMQWcwSlhRczlDKzBZRFF2dEN5MEwzUXNERVpNQmNHQTFVRUJBd1EwSkRRdXRHQjBMWFF2ZEMrMExMUXNERWlNQ0FHQTFVRURBd1owSmd1MEw0dUlOQzAwTGpSZ05DMTBMclJndEMrMFlEUXNERTlNRHNHQTFVRUF3dzAwSkRRdXRHQjBMWFF2ZEMrMExMUXNDRFFrdEN3MEx2UXRkQzkwWUxRdU5DOTBMQWcwSlhRczlDKzBZRFF2dEN5MEwzUXNEQmpNQndHQmlxRkF3SUNFekFTQmdjcWhRTUNBaVFBQmdjcWhRTUNBaDRCQTBNQUJFQllObFEybHN2cjRiajJhUWRPQklUZ3hYQVpXZWtPM0R6bW5PdzhJbkNCYUtSN1Nod1hMZEtvbVNCSDNGVGZaSmpudHl3YmVPTzIwUFJITVVZcFdTMGNvNElCempDQ0Fjb3dEQVlEVlIwVEFRSC9CQUl3QURBWUJnTlZIU0FFRVRBUE1BMEdDeXFGQXdNOW50YzJBUUlDTUlIQUJnTlZIUkVFZ2Jnd2diV2dFZ1lEVlFRTW9Bc1RDVFF5T1RFeE1qY3hONkFZQmdncWhRTURnUU1CQWFBTUV3bzNOekkwT0RJNE5UVXpvQmtHQ2lxRkF3TTludGMyQVFlZ0N4TUpOemN5TkRBeE1EQXhvQnNHQ2lxRkF3TTludGMyQVFXZ0RSTUxNRE0zTXpJd01ESXlOVFdnRFFZSEtvVURBZUE1QWFBQ0V3Q2dEd1lKS29aSWh2Y05BUWtVb0FJVEFLQVFCZ29xaFFNRFBaN1hOZ0VJb0FJVEFLQVlCZ1VxaFFOa0FhQVBFdzB4TURJM056UTJNak01TkRNemhnRXdNQTRHQTFVZER3RUIvd1FFQXdJRDZEQlRCZ05WSFNVRVREQktCZ2dyQmdFRkJRY0RBZ1lPS29VREF6MmUxellCQmdNRUFRRUdEaXFGQXdNOW50YzJBUVlEQkFFQ0JnNHFoUU1EUFo3WE5nRUdBd1FCQXdZT0tvVURBejJlMXpZQkJnTUVBUVF3SHdZRFZSMGpCQmd3Rm9BVVo1MzdiKzlaT3ZNTElTazdnMWpERmcwUXc2SXdPQVlEVlIwZkJERXdMekF0b0N1Z0tZWW5hSFIwY0RvdkwyTnliQzV5YjNOcllYcHVZUzV5ZFM5amNtd3ZURUZUVkY5dVpYY3VZM0pzTUIwR0ExVWREZ1FXQkJUZSt6a2liYVVyaTBQaWVqbVp2OFpOUTJVdGJEQUlCZ1lxaFFNQ0FnTURRUUNxaCtNemRTcUJVdHQybGp3WHhncVY1Mm5VTTd4Qno1VS9YaTNXMEJoTEFkVHBwSG9CSGw0dHNCK3RmdFpXL3NnRDRiL3hmL2pVaGJHKytDYnhpZFVaTVlJQ3NUQ0NBcTBDQVFFd2dnSk1NSUlDUXpFaE1COEdDU3FHU0liM0RRRUpBUllTZFhWalgyWnJRSEp2YzJ0aGVtNWhMbkoxTVNJd0lBWURWUVFKREJuUmc5QzdMaURRbU5DNzBZelF1TkM5MExyUXNDRFF0QzQzTVJrd0Z3WURWUVFIREJEUXN5NGcwSnpRdnRHQjBMclFzdEN3TVlHaU1JR2ZCZ2txaGtpRzl3MEJDUUlNZ1pIUWxOQ3cwTDNRdmRHTDBMa2cwWUhRdGRHQTBZTFF1TkdFMExqUXV0Q3cwWUlnMEw3Umd0QzYwWURSaTlHQzBMN1FzOUMrSU5DNjBMdlJqdEdIMExBZzBMalJnZEMvMEw3UXU5R00wTGZSZzlDMTBZTFJnZEdQSU5HQjBMNGcwWUhSZ05DMTBMVFJnZEdDMExMUXZ0QzhJTkNoMEpyUWw5Q1lJTkNhMFlEUXVOQy8wWUxRdmlEUW45R0EwTDRnUTFOUU1Rc3dDUVlEVlFRR0V3SlNWVEZ5TUhBR0ExVUVDd3hwMEtQUXY5R0EwTERRc3RDNzBMWFF2ZEM0MExVZzBZRFF0ZEMyMExqUXZOQ3dJTkdCMExYUXV0R0EwTFhSZ3RDOTBMN1JnZEdDMExnZzBMZ2cwTEhRdGRDMzBMN1F2OUN3MFlIUXZkQyswWUhSZ3RDNElOQzQwTDNSaE5DKzBZRFF2TkN3MFliUXVOQzRNVGd3TmdZRFZRUUtEQy9RcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDMUlOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRdmpGL01IMEdBMVVFQXd4MjBLUFF2OUMrMEx2UXZkQyswTHpRdnRHSDBMWFF2ZEM5MFl2UXVTRFJnOUMwMEw3UmdkR0MwTDdRc3RDMTBZRFJqOUdPMFluUXVOQzVJTkdHMExYUXZkR0MwWUFnMEtUUXRkQzAwTFhSZ05DdzBMdlJqTkM5MEw3UXM5QytJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXNBSURLRWduTUFvR0JpcUZBd0lDQ1FVQU1Bb0dCaXFGQXdJQ0V3VUFCRUFvRnZnUGNEMkdyaHkzbTVkcGM1Vjk5TGhCWUZYbEVsR1FaaEw0bkt0dTE0WGJZZGFnWTRmWHk5ME5NcVo0WWZHbW1IYnFpV2l5T0dnZG04c0NLZEIv</signature>
+                </cryptoSigns>
+            </attachment>
+        </scanDocuments>
+        <currentContractStage>E</currentContractStage>
+    </ns2:contract>
+</ns2:export>

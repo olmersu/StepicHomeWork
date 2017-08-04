@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:export xmlns="http://zakupki.gov.ru/oos/types/1" xmlns:ns2="http://zakupki.gov.ru/oos/export/1" xmlns:ns3="http://zakupki.gov.ru/oos/printform/1" xmlns:ns4="http://zakupki.gov.ru/oos/control99/1">
+    <ns2:contract schemeVersion="7.0">
+    <id>32082211</id>
+        <publishDate>2017-01-31T09:37:37.474+03:00</publishDate>
+        <versionNumber>1</versionNumber>
+        <foundation>
+            <fcsOrder>
+                <order>
+                    <notificationNumber>0373100088116000377</notificationNumber>
+                    <lotNumber>1</lotNumber>
+                    <placing>12011</placing>
+                    <singleCustomer>
+                        <reason>
+                            <code>20270</code>
+                            <name>Закупка вследствие признания несостоявшимся электронного аукциона в соответствии
+                                частями 1
+                                – 3.1 статьи 71 Федерального закона решения об осуществлении закупки у единственного
+                                поставщика (подрядчика, исполнителя)
+                            </name>
+                        </reason>
+                    </singleCustomer>
+                </order>
+            </fcsOrder>
+        </foundation>
+        <customer>
+            <regNum>03731000881</regNum>
+            <consRegistryNum>001X5837</consRegistryNum>
+            <fullName>ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ "ЦЕНТРАЛЬНАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА ГРАЖДАНСКОЙ АВИАЦИИ"</fullName>
+            <shortName>ЦКБ ГА</shortName>
+            <registrationDate>1992-10-20</registrationDate>
+            <inn>7733046721</inn>
+            <kpp>773301001</kpp>
+            <legalForm>
+                <code>75103</code>
+                <singularName>Федеральное государственное бюджетное учреждение</singularName>
+            </legalForm>
+            <OKPO>20748522</OKPO>
+            <customerCode>17733046721773301001</customerCode>
+        </customer>
+        <placer>
+            <responsibleOrg>
+                <regNum>03731000881</regNum>
+                <consRegistryNum>001X5837</consRegistryNum>
+                <fullName>ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ "ЦЕНТРАЛЬНАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА ГРАЖДАНСКОЙ АВИАЦИИ"
+                </fullName>
+            </responsibleOrg>
+            <responsibleRole>CU</responsibleRole>
+        </placer>
+        <finances>
+            <extrabudgetFunds>
+                <extrabudget>
+                    <code>60</code>
+                    <name>Средства бюджетных учреждений</name>
+                </extrabudget>
+                <stages>
+                    <endDate>2017-12-31</endDate>
+                    <payments>
+                        <KVR>244</KVR>
+                        <paymentMonth>12</paymentMonth>
+                        <paymentYear>2017</paymentYear>
+                        <paymentSum>5070344.57</paymentSum>
+                        <paymentSumRUR>5070344.57</paymentSumRUR>
+                    </payments>
+                </stages>
+            </extrabudgetFunds>
+        </finances>
+        <protocolDate>2017-01-16</protocolDate>
+        <documentBase>П Р О Т О К О Л № 338/Р-ЭА 0373100088116000377-4</documentBase>
+        <documentCode>120111</documentCode>
+        <signDate>2017-01-30</signDate>
+        <regNum>1773304672117000042</regNum>
+        <number>338/16-ЭА</number>
+        <priceInfo>
+            <price>5070344.57</price>
+            <priceType>P</priceType>
+            <currency>
+                <code>RUB</code>
+                <name>Российский рубль</name>
+            </currency>
+            <currencyRate>
+                <rate>1</rate>
+                <raiting>1</raiting>
+            </currencyRate>
+            <priceRUR>5070344.57</priceRUR>
+        </priceInfo>
+        <executionPeriod>
+            <startDate>2017-01-30</startDate>
+            <stages>
+                <endDate>2017-12-31</endDate>
+            </stages>
+            <endDate>2017-12-31</endDate>
+        </executionPeriod>
+        <products>
+            <product>
+                <sid>117707826</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения глюкозы, GOD-метод (Glucose liquicolor) [4х100;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2090.00</price>
+                <priceRUR>2090.00</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>4180.00</sum>
+                <sumRUR>4180.00</sumRUR>
+            </product>
+            <product>
+                <sid>117707959</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения мочевины по конечной точке (Urea liquicolor) [1Х100;100;1;3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2400.20</price>
+                <priceRUR>2400.20</priceRUR>
+                <quantity>6.0</quantity>
+                <sum>14401.20</sum>
+                <sumRUR>14401.20</sumRUR>
+            </product>
+            <product>
+                <sid>117708101</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения АСТ (GOT (ASAT) liquiUV) [8х40;8x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>5811.30</price>
+                <priceRUR>5811.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>11622.60</sum>
+                <sumRUR>11622.60</sumRUR>
+            </product>
+            <product>
+                <sid>117708306</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения АЛТ (GPT (ALAT) liquiUV) [8х40;8x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>5811.30</price>
+                <priceRUR>5811.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>11622.60</sum>
+                <sumRUR>11622.60</sumRUR>
+            </product>
+            <product>
+                <sid>117708447</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения щелочной фосфатазы (Alkaline Phosphatase opt.
+                    liquicolor) [8х40;8x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>6823.30</price>
+                <priceRUR>6823.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>13646.60</sum>
+                <sumRUR>13646.60</sumRUR>
+            </product>
+            <product>
+                <sid>117708547</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор контрольных материалов
+                    (Humatrol N) [6х5 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>4042.50</price>
+                <priceRUR>4042.50</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>4042.50</sum>
+                <sumRUR>4042.50</sumRUR>
+            </product>
+            <product>
+                <sid>117708664</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор контрольных материалов
+                    (Humatrol P) [6х5 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>4043.60</price>
+                <priceRUR>4043.60</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>4043.60</sum>
+                <sumRUR>4043.60</sumRUR>
+            </product>
+            <product>
+                <sid>117708888</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов in vitro для биохимических исследований: Набор реагентов для
+                    определения общего билирубина (Auto-Bilirubin-T 
+                    liquicolor) [3х100;1х75мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>5307.50</price>
+                <priceRUR>5307.50</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>10615.00</sum>
+                <sumRUR>10615.00</sumRUR>
+            </product>
+            <product>
+                <sid>117709043</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов in vitro для биохимических исследований: Набор реагентов для
+                    определения прямого билирубина (Auto-Bilirubin-D liquicolor) [3х100;1х75мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>5181.00</price>
+                <priceRUR>5181.00</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>10362.00</sum>
+                <sumRUR>10362.00</sumRUR>
+            </product>
+            <product>
+                <sid>117709404</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения ЛДГ модифицированным SCE методом (LDH SCE mod.
+                    LiquiUV) [10x8;2x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>3031.60</price>
+                <priceRUR>3031.60</priceRUR>
+                <quantity>4.0</quantity>
+                <sum>12126.40</sum>
+                <sumRUR>12126.40</sumRUR>
+            </product>
+            <product>
+                <sid>117709551</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор реагентов
+                    in vitro для биохимических исследований: Набор реагентов для определения
+                    креатинкиназы (CK NAC liquiUV) [10x8;2x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>5307.50</price>
+                <priceRUR>5307.50</priceRUR>
+                <quantity>5.0</quantity>
+                <sum>26537.50</sum>
+                <sumRUR>26537.50</sumRUR>
+            </product>
+            <product>
+                <sid>117709645</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения альфа-амилазы (Alpha Amylase liquicolor) [16х5 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>15038.10</price>
+                <priceRUR>15038.10</priceRUR>
+                <quantity>6.0</quantity>
+                <sum>90228.60</sum>
+                <sumRUR>90228.60</sumRUR>
+            </product>
+            <product>
+                <sid>117709789</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения общего белка (Protein Total liquicolor) [4х100;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2400.20</price>
+                <priceRUR>2400.20</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>2400.20</sum>
+                <sumRUR>2400.20</sumRUR>
+            </product>
+            <product>
+                <sid>117709969</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов in vitro для биохимических исследований: Набор реагентов для
+                    определения креатинкиназы МВ (CK-MB liquiUV) [10х8;2x10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>12257.30</price>
+                <priceRUR>12257.30</priceRUR>
+                <quantity>3.0</quantity>
+                <sum>36771.90</sum>
+                <sumRUR>36771.90</sumRUR>
+            </product>
+            <product>
+                <sid>117710056</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения альбумина (Albumin liquicolor) [4х100;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2400.20</price>
+                <priceRUR>2400.20</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>2400.20</sum>
+                <sumRUR>2400.20</sumRUR>
+            </product>
+            <product>
+                <sid>117710287</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения холестерина (Cholesterol liquicolor) [4х30;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2400.20</price>
+                <priceRUR>2400.20</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>4800.40</sum>
+                <sumRUR>4800.40</sumRUR>
+            </product>
+            <product>
+                <sid>117710354</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения холестерина высокой плотности (HDL Cholesterol liquicolor)
+                    [1x60;1x20;1х4мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>12635.70</price>
+                <priceRUR>12635.70</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>12635.70</sum>
+                <sumRUR>12635.70</sumRUR>
+            </product>
+            <product>
+                <sid>117710548</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения холестерина низкой плотности (LDL Cholesterol liquicolor)
+                    [1x60;1x20;1х4мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>13750.00</price>
+                <priceRUR>13750.00</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>13750.00</sum>
+                <sumRUR>13750.00</sumRUR>
+            </product>
+            <product>
+                <sid>117710634</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения креатинина (Creatinine liquicolor) [2x100;1х5мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>2274.80</price>
+                <priceRUR>2274.80</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>2274.80</sum>
+                <sumRUR>2274.80</sumRUR>
+            </product>
+            <product>
+                <sid>117710782</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения мочевой кислоты (Uric Acid liquicolor) [4х100;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>6065.40</price>
+                <priceRUR>6065.40</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>6065.40</sum>
+                <sumRUR>6065.40</sumRUR>
+            </product>
+            <product>
+                <sid>117711684</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro: Набор реагентов для
+                    определения триглицеридов (Triglycerides liquicolor) [4х100;1х3мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>10613.90</price>
+                <priceRUR>10613.90</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>10613.90</sum>
+                <sumRUR>10613.90</sumRUR>
+            </product>
+            <product>
+                <sid>117711951</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для ежедневной промывки (разбавитель, 1 флакон х 90 мл; пепсин, 6
+                    флаконов х 0,70 г) - Calcium Daily Rinse/Cleaning Solution Kit [1х90мл;6х0.7г]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>7467.90</price>
+                <priceRUR>7467.90</priceRUR>
+                <quantity>3.0</quantity>
+                <sum>22403.70</sum>
+                <sumRUR>22403.70</sumRUR>
+            </product>
+            <product>
+                <sid>117712057</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Пакет с растворами Na/K/Ca/pH - Solution Pack Na/K/Ca/pH [800 мл]</name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>28176.50</price>
+                <priceRUR>28176.50</priceRUR>
+                <quantity>8.0</quantity>
+                <sum>225412.00</sum>
+                <sumRUR>225412.00</sumRUR>
+            </product>
+            <product>
+                <sid>117712208</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор контрольных
+                    материалов - Tri-Level Quality Control Kit [3x10 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>12787.50</price>
+                <priceRUR>12787.50</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>12787.50</sum>
+                <sumRUR>12787.50</sumRUR>
+            </product>
+            <product>
+                <sid>117712333</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Фиксатор-краситель
+                    эозин метиленовый синий по Май-Грюнвальду (Диахим-Геми-Стейн-М-Г) по ТУ
+                    9398-269-27428909-02 [1 л]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>1769.90</price>
+                <priceRUR>1769.90</priceRUR>
+                <quantity>16.0</quantity>
+                <sum>28318.40</sum>
+                <sumRUR>28318.40</sumRUR>
+            </product>
+            <product>
+                <sid>117712433</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Краситель
+                    азур-эозин по Романовскому (Диахим-Гемистейн-Р) по ТУ 9398-270-27428909-02 [1
+                    л]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>3759.80</price>
+                <priceRUR>3759.80</priceRUR>
+                <quantity>10.0</quantity>
+                <sum>37598.00</sum>
+                <sumRUR>37598.00</sumRUR>
+            </product>
+            <product>
+                <sid>117712528</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Контрольный материал СD Diff Control Low [1x3 мл]</name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>6930.00</price>
+                <priceRUR>6930.00</priceRUR>
+                <quantity>24.0</quantity>
+                <sum>166320.00</sum>
+                <sumRUR>166320.00</sumRUR>
+            </product>
+            <product>
+                <sid>117712669</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Контрольный
+                    материал СD Diff Control Normal [1x3 мл]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>6930.00</price>
+                <priceRUR>6930.00</priceRUR>
+                <quantity>24.0</quantity>
+                <sum>166320.00</sum>
+                <sumRUR>166320.00</sumRUR>
+            </product>
+            <product>
+                <sid>117712826</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Контрольный материал СD Diff Control High [1x3 мл]</name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>6930.00</price>
+                <priceRUR>6930.00</priceRUR>
+                <quantity>24.0</quantity>
+                <sum>166320.00</sum>
+                <sumRUR>166320.00</sumRUR>
+            </product>
+            <product>
+                <sid>117713030</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Кюветы
+                    реакционные (Reaction cuvette) - Принадлежность для Анализатора биохимического
+                    BS серии [1000 шт.]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>62540.00</price>
+                <priceRUR>62540.00</priceRUR>
+                <quantity>4.0</quantity>
+                <sum>250160.00</sum>
+                <sumRUR>250160.00</sumRUR>
+            </product>
+            <product>
+                <sid>117713154</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Изделие
+                    медицинское вспомогательное для отбора и обработки биологических проб для
+                    лабораторных исследований, исполнение: Кювета для анализаторов различных марок
+                    (вид 202870) [1000 шт.]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>7201.70</price>
+                <priceRUR>7201.70</priceRUR>
+                <quantity>3.0</quantity>
+                <sum>21605.10</sum>
+                <sumRUR>21605.10</sumRUR>
+            </product>
+            <product>
+                <sid>117713291</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов in vitro для биохимических исследований: Набор мультикалибраторов
+                    (Autocal) [4x5 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>7706.60</price>
+                <priceRUR>7706.60</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>7706.60</sum>
+                <sumRUR>7706.60</sumRUR>
+            </product>
+            <product>
+                <sid>117713411</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Электрод для
+                    анализатора электролитов крови EasyLyte, вариант исполнения: Электрод
+                    измерительный "Na+" (Na+ (Sodium) Electrode) [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>23564.93</price>
+                <priceRUR>23564.93</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>23564.93</sum>
+                <sumRUR>23564.93</sumRUR>
+            </product>
+            <product>
+                <sid>117713560</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Электрод
+                    для анализатора электролитов крови EasyLyte, вариант исполнения: Электрод
+                    измерительный "Ca++" (Ca++ (Calcium) Electrode) [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>23894.00</price>
+                <priceRUR>23894.00</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>23894.00</sum>
+                <sumRUR>23894.00</sumRUR>
+            </product>
+            <product>
+                <sid>117718442</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Электрод
+                    для анализатора электролитов крови EasyLyte, вариант исполнения: Электрод
+                    измерительный "К+" (K+ (Potassium) Electrode) [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>23690.00</price>
+                <priceRUR>23690.00</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>23690.00</sum>
+                <sumRUR>23690.00</sumRUR>
+            </product>
+            <product>
+                <sid>117718679</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Электрод
+                    для анализатора электролитов крови EasyLyte, вариант исполнения: Электрод
+                    измерительный "pH" (Electrode pH) [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>24259.00</price>
+                <priceRUR>24259.00</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>24259.00</sum>
+                <sumRUR>24259.00</sumRUR>
+            </product>
+            <product>
+                <sid>117718796</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Электрод
+                    для анализаторов электролитов крови моделей EasyLyte, вариант исполнения:
+                    Электрод референсный (Disposable Reference Electrode) [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>18413.00</price>
+                <priceRUR>18413.00</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>18413.00</sum>
+                <sumRUR>18413.00</sumRUR>
+            </product>
+            <product>
+                <sid>117719058</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    контрольных материалов, норма (Serodos) [6х5 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>8339.10</price>
+                <priceRUR>8339.10</priceRUR>
+                <quantity>3.0</quantity>
+                <sum>25017.30</sum>
+                <sumRUR>25017.30</sumRUR>
+            </product>
+            <product>
+                <sid>117719305</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для биохимических исследований in vitro, вариант исполнения: Набор
+                    реагентов для определения гамма-ГТ (Gamma Glutamil Transferase liquicolor)
+                    [10х8;2х10мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>3918.20</price>
+                <priceRUR>3918.20</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>3918.20</sum>
+                <sumRUR>3918.20</sumRUR>
+            </product>
+            <product>
+                <sid>117719437</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для экспресс-определения in vitro скрытой  крови в кале (Hexagon OBTI) [24 теста]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>9130.00</price>
+                <priceRUR>9130.00</priceRUR>
+                <quantity>24.0</quantity>
+                <sum>219120.00</sum>
+                <sumRUR>219120.00</sumRUR>
+            </product>
+            <product>
+                <sid>117719636</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line, S-Line: Чип-сенсор
+                    глюкоза II типа [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>12510.30</price>
+                <priceRUR>12510.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>25020.60</sum>
+                <sumRUR>25020.60</sumRUR>
+            </product>
+            <product>
+                <sid>117719786</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line, S-Line: Чип-сенсор
+                    лактат II типа [1 шт.]
+                </name>
+                <OKEI>
+                    <code>796</code>
+                    <nationalCode>ШТ</nationalCode>
+                </OKEI>
+                <price>21354.30</price>
+                <priceRUR>21354.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>42708.60</sum>
+                <sumRUR>42708.60</sumRUR>
+            </product>
+            <product>
+                <sid>117720015</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line и BIOSEN S-Line:
+                    Раствор сенсора глюкоза/лактат проверочный (20х1 мл) [20х1 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>6570.30</price>
+                <priceRUR>6570.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>13140.60</sum>
+                <sumRUR>13140.60</sumRUR>
+            </product>
+            <product>
+                <sid>117720139</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line, S-Line: Раствор
+                    мульти-стандарт 12 ммоль/л в микропробирках (100х2 мл) [100х2 мл]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>8087.20</price>
+                <priceRUR>8087.20</priceRUR>
+                <quantity>12.0</quantity>
+                <sum>97046.40</sum>
+                <sumRUR>97046.40</sumRUR>
+            </product>
+            <product>
+                <sid>117720285</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line, S-Line: Раствор
+                    глюкоза/лактат системный (2500 мл) [1х2500 мл]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>15073.30</price>
+                <priceRUR>15073.30</priceRUR>
+                <quantity>12.0</quantity>
+                <sum>180879.60</sum>
+                <sumRUR>180879.60</sumRUR>
+            </product>
+            <product>
+                <sid>117720488</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Дезинфицирующий
+                    раствор [5х75 мкл]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>4130.00</price>
+                <priceRUR>4130.00</priceRUR>
+                <quantity>8.0</quantity>
+                <sum>33040.00</sum>
+                <sumRUR>33040.00</sumRUR>
+            </product>
+            <product>
+                <sid>117720588</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line и BIOSEN S-Line:
+                    Раствор РедиКонНорм для глюкозы и лактата контрольный готовый к использованию в
+                    пробирках (цвет желтый) (25х1 мл) [25х1 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>11563.20</price>
+                <priceRUR>11563.20</priceRUR>
+                <quantity>9.0</quantity>
+                <sum>104068.80</sum>
+                <sumRUR>104068.80</sumRUR>
+            </product>
+            <product>
+                <sid>117720814</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал
+                    расходный к анализаторам глюкозы и лактата BIOSEN C-Line и BIOSEN S-Line:
+                    Раствор РедиКонПат для глюкозы и лактата контрольный готовый к использованию в
+                    пробирках (цвет коричневый) (25х1 мл) [25х1 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>11563.20</price>
+                <priceRUR>11563.20</priceRUR>
+                <quantity>9.0</quantity>
+                <sum>104068.80</sum>
+                <sumRUR>104068.80</sumRUR>
+            </product>
+            <product>
+                <sid>117720925</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материал  расходный к анализаторам глюкозы и лактата
+                    BIOSEN C-Line, S-Line: Раствор глюкоза/лактат гемолизирующий с капиллярами 20
+                    мкл в микропробирках (1000х1мл) [1000 шт.]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>45742.40</price>
+                <priceRUR>45742.40</priceRUR>
+                <quantity>15.0</quantity>
+                <sum>686136.00</sum>
+                <sumRUR>686136.00</sumRUR>
+            </product>
+            <product>
+                <sid>117721022</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    изделий для анализаторов глюкозы "Энзискан Ультра" по ТУ
+                    9398-003-76255079-2010: мембрана глюкозооксидазная.  [5 шт.]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>7227.00</price>
+                <priceRUR>7227.00</priceRUR>
+                <quantity>4.0</quantity>
+                <sum>28908.00</sum>
+                <sumRUR>28908.00</sumRUR>
+            </product>
+            <product>
+                <sid>117721170</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Тест-полоски
+                    SD UroColor для биохимических исследований мочи in vitro (SD UroColor 11) [100
+                    шт.]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>2207.70</price>
+                <priceRUR>2207.70</priceRUR>
+                <quantity>40.0</quantity>
+                <sum>88308.00</sum>
+                <sumRUR>88308.00</sumRUR>
+            </product>
+            <product>
+                <sid>117721238</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Материалы
+                    контрольные для мониторинга качества клинических и лабораторных исследований.
+                    Материал контрольный многоуровневый "Ликвичек Контроль "Общий Анализ
+                    Мочи" [2х12 мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>4801.50</price>
+                <priceRUR>4801.50</priceRUR>
+                <quantity>4.0</quantity>
+                <sum>19206.00</sum>
+                <sumRUR>19206.00</sumRUR>
+            </product>
+            <product>
+                <sid>117722390</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Раствор
+                    для системной жидкости (Additive for washing water) (принадлежность к анализатору
+                    биохимическому HUMASTAR 600 для лабораторной диагностики in vitro) [4х25 мл]
+                </name>
+                <OKEI>
+                    <code>778</code>
+                    <nationalCode>УПАК</nationalCode>
+                </OKEI>
+                <price>3524.66</price>
+                <priceRUR>3524.66</priceRUR>
+                <quantity>4.0</quantity>
+                <sum>14098.64</sum>
+                <sumRUR>14098.64</sumRUR>
+            </product>
+            <product>
+                <sid>117722427</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    полосок иммунохроматографических для одновременного выявления десяти
+                    наркотических соединений в моче (ИХА-10-МУЛЬТИ-ФАКТОР) по ТУ
+                    9398-028-51062356-2006 в следующем составе: планшет из пластика белого цвета
+                    прямоугольной формы с десятью полосками белого цвета с маркировкой МОРФ, КОК,
+                    МАРИХ, АМФ, М.АМФ, БЕНЗ, МЕТАД, БАРБ, МДМА, ТАД [25 шт.]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>17138.00</price>
+                <priceRUR>17138.00</priceRUR>
+                <quantity>80.0</quantity>
+                <sum>1371040.00</sum>
+                <sumRUR>1371040.00</sumRUR>
+            </product>
+            <product>
+                <sid>117722849</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для экспресс-диагностики in vitro аутоиммунных заболеваний методом
+                    латексной агглютинации: Набор реагентов для определения нДНК (SLE Latex Test)
+                    [50 тестов]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>15921.40</price>
+                <priceRUR>15921.40</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>31842.80</sum>
+                <sumRUR>31842.80</sumRUR>
+            </product>
+            <product>
+                <sid>117722868</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Экспресс-тест
+                    иммунохроматографический BRAHMS PCT-Q 
+                    для полуколичественного определения прокальцитонина (ПКТ) в сыворотке и
+                    плазме крови человека [25тестов]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>71393.30</price>
+                <priceRUR>71393.30</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>142786.60</sum>
+                <sumRUR>142786.60</sumRUR>
+            </product>
+            <product>
+                <sid>117723851</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Реагент очищающий Hypochlorite [1 л]</name>
+                <OKEI>
+                    <code>872</code>
+                    <nationalCode>ФЛАК</nationalCode>
+                </OKEI>
+                <price>4547.40</price>
+                <priceRUR>4547.40</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>4547.40</sum>
+                <sumRUR>4547.40</sumRUR>
+            </product>
+            <product>
+                <sid>117723877</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    кювет реакционных (2 сектора с 20 кюветами в каждом), 3 шт. [набор]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>18207.40</price>
+                <priceRUR>18207.40</priceRUR>
+                <quantity>6.0</quantity>
+                <sum>109244.40</sum>
+                <sumRUR>109244.40</sumRUR>
+            </product>
+            <product>
+                <sid>117723919</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов in vitro для определения содержания тропонина I (SD BIOLINE Troponin
+                    I) [25тестов]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>14483.70</price>
+                <priceRUR>14483.70</priceRUR>
+                <quantity>10.0</quantity>
+                <sum>144837.00</sum>
+                <sumRUR>144837.00</sumRUR>
+            </product>
+            <product>
+                <sid>117724045</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для диагностики in vitro заболеваний сердечно-сосудистой системы,
+                    вариант исполнения: Набор контрольных материалов креатинкиназы MB (CK-MB
+                    Control) [2х(2х2) мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>8592.10</price>
+                <priceRUR>8592.10</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>17184.20</sum>
+                <sumRUR>17184.20</sumRUR>
+            </product>
+            <product>
+                <sid>117724053</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов для диагностики in vitro заболеваний сердечно-сосудистой системы,
+                    вариант исполнения: Набор калибраторов креатинкиназы MB (CK-MB Calibrator) [2х1
+                    мл]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>6317.30</price>
+                <priceRUR>6317.30</priceRUR>
+                <quantity>1.0</quantity>
+                <sum>6317.30</sum>
+                <sumRUR>6317.30</sumRUR>
+            </product>
+            <product>
+                <sid>117724077</sid>
+                <OKPD2>
+                    <code>20.59.52.199</code>
+                    <name>Реагенты сложные диагностические или лабораторные прочие, не включенные в другие группировки
+                    </name>
+                </OKPD2>
+                <name>Набор
+                    реагентов SD BIOLINE Influenza для экспресс-определения антигенов вируса гриппа
+                    in vitro, вариант исполнения: Набор реагентов для раздельного определения
+                    антигенов вируса гриппа типа А и типа В (SD BIOLINE Influenza Antigen)
+                    [25тестов]
+                </name>
+                <OKEI>
+                    <code>704</code>
+                    <nationalCode>НАБОР</nationalCode>
+                </OKEI>
+                <price>16973.00</price>
+                <priceRUR>16973.00</priceRUR>
+                <quantity>2.0</quantity>
+                <sum>33946.00</sum>
+                <sumRUR>33946.00</sumRUR>
+            </product>
+        </products>
+        <suppliers>
+            <supplier>
+                <legalEntityRF>
+                    <legalForm>
+                        <code>12200</code>
+                        <singularName>Акционерное общество</singularName>
+                    </legalForm>
+                    <fullName>Закрытое акционерное общество 'АНАЛИТИКА'</fullName>
+                    <OKPO>06906003</OKPO>
+                    <INN>7716010122</INN>
+                    <KPP>771601001</KPP>
+                    <registrationDate>1992-10-15</registrationDate>
+                    <OKTMO>
+                        <code>45361000</code>
+                        <name>муниципальный округ Свиблово</name>
+                    </OKTMO>
+                    <address>129343, Российская Федерация, г. Москва, проезд Серебрякова, д. 2, корп. 1, Серебрякова
+                        проезд,
+                        2
+                    </address>
+                    <contactEMail>shamil@analytica.ru</contactEMail>
+                    <contactPhone>7-495-7370363</contactPhone>
+                </legalEntityRF>
+            </supplier>
+        </suppliers>
+        <href>http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=1773304672117000042</href>
+        <printForm>
+            <url>http://zakupki.gov.ru/epz/contract/printForm/viewXml.html?contractInfoId=32082211</url>
+            <docRegNumber>17733046721170000420001</docRegNumber>
+            <signature>
+                TUlJTThBWUpLb1pJaHZjTkFRY0NvSUlNNFRDQ0ROMENBUUV4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2dqQU1JSUl2RENDQ0d1Z0F3SUJBZ0lERmxnL01BZ0dCaXFGQXdJQ0F6Q0NBVjB4R0RBV0Jna3Foa2lHOXcwQkNRSVRDVk5sY25abGNpQkRRVEVnTUI0R0NTcUdTSWIzRFFFSkFSWVJkV05mWm10QWNtOXphMkY2Ym1FdWNuVXhIREFhQmdOVkJBZ01FemMzSU5DekxpRFFuTkMrMFlIUXV0Q3kwTEF4R2pBWUJnZ3FoUU1EZ1FNQkFSSU1NREEzTnpFd05UWTROell3TVJnd0ZnWUZLb1VEWkFFU0RURXdORGMzT1Rjd01UazRNekF4TERBcUJnTlZCQWtNSTlHRDBMdlF1TkdHMExBZzBKalF1OUdNMExqUXZkQzYwTEFzSU5DMDBMN1F2Q0EzTVJVd0V3WURWUVFIREF6UW5OQyswWUhRdXRDeTBMQXhDekFKQmdOVkJBWVRBbEpWTVRnd05nWURWUVFLREMvUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0QzFJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXZqRS9NRDBHQTFVRUF3dzIwS1BRcGlEUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0Q3owTDRnMExyUXNOQzMwTDNRc05HSDBMWFF1ZEdCMFlMUXN0Q3dNQjRYRFRFMk1EVXdOREV5TURnME4xb1hEVEUzTURnd05ERXlNRGcwTjFvd2dnR1FNUm93R0FZSUtvVURBNEVEQVFFU0REVXlOakV3TkRNMU9EQXhNekVXTUJRR0JTcUZBMlFERWdzd01UZ3pOelEyTmpFMk16RVlNQllHQlNxRkEyUUJFZzB4TURJM056TTVOek14TkRreE1SMHdHd1lKS29aSWh2Y05BUWtCRmc1aGQyRnJaVUJqYTJKbllTNXlkVEVMTUFrR0ExVUVCaE1DVWxVeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFVU1CSUdBMVVFQ2d3TDBLYlFtdENSSU5DVDBKQXhIekFkQmdOVkJBc01GdENnMFlQUXV0QyswTExRdnRDMDBZSFJndEN5MEw0eEtqQW9CZ05WQkNvTUlkQ2QwTERSZ3RDdzBMdlJqTkdQSU5DUjBMN1JnTkM0MFlIUXZ0Q3kwTDNRc0RFYk1Ca0dBMVVFQkF3UzBKZlFzTkN4MFlEUXZ0QzAwTGpRdmRDd01TQXdIZ1lEVlFRTURCZlFrOUM3MExEUXN0QzkwWXZRdVNEUXN0R0EwTERSaHpFOU1Ec0dBMVVFQXd3MDBKZlFzTkN4MFlEUXZ0QzAwTGpRdmRDd0lOQ2QwTERSZ3RDdzBMdlJqTkdQSU5DUjBMN1JnTkM0MFlIUXZ0Q3kwTDNRc0RCak1Cd0dCaXFGQXdJQ0V6QVNCZ2NxaFFNQ0FpUUFCZ2NxaFFNQ0FoNEJBME1BQkVCNVpVYmZabk1BMjc2d1RIY3BuWlhXeUhScVBnK0JERHRHOWhKUGNmam9GelFlbVcvNHZuMnpTVE16eG1tK2RuQksrU2RHdHg0OFhycGQrZ2pGb1dlU280SUUyVENDQk5Vd0RBWURWUjBUQVFIL0JBSXdBREFkQmdOVkhTQUVGakFVTUFnR0JpcUZBMlJ4QVRBSUJnWXFoUU5rY1FJd1dBWURWUjBSQkZFd1Q2QVNCZ05WQkF5Z0N4TUpOREV3TVRNeE1qUXdvQmtHQ2lxRkF3TTludGMyQVFlZ0N4TUpOemN6TXpBeE1EQXhvQnNHQ2lxRkF3TTludGMyQVFXZ0RSTUxNRE0zTXpFd01EQTRPREdHQVRBd05nWUZLb1VEWkc4RUxRd3JJdENhMFlEUXVOQy8wWUxRdnRDZjBZRFF2aUJEVTFBaUlDalFzdEMxMFlEUmdkQzQwWThnTXk0NUtUQ0NBV0VHQlNxRkEyUndCSUlCVmpDQ0FWSU1SQ0xRbXRHQTBMalF2OUdDMEw3UW45R0EwTDRnUTFOUUlpQW8wTExRdGRHQTBZSFF1TkdQSURNdU5pa2dLTkM0MFlIUXY5QyswTHZRdmRDMTBMM1F1TkMxSURJcERHZ2kwSi9SZ05DKzBMUFJnTkN3MEx6UXZOQzkwTDR0MExEUXY5Qy8wTERSZ05DdzBZTFF2ZEdMMExrZzBMclF2dEM4MEwvUXU5QzEwTHJSZ1NBaTBLN1F2ZEM0MFlIUXRkR0EwWUl0MEpQUW50Q2gwS0lpTGlEUWt0QzEwWURSZ2RDNDBZOGdNaTR4SWd4UDBLSFF0ZEdBMFlMUXVOR0UwTGpRdXRDdzBZSWcwWUhRdnRDKzBZTFFzdEMxMFlMUmdkR0MwTExRdU5HUElPS0VsaURRb2RDa0x6RXlOQzB5TnpNNElOQyswWUlnTURFdU1EY3VNakF4TlF4UDBLSFF0ZEdBMFlMUXVOR0UwTGpRdXRDdzBZSWcwWUhRdnRDKzBZTFFzdEMxMFlMUmdkR0MwTExRdU5HUElPS0VsaURRb2RDa0x6RXlPQzB5TVRjMUlOQyswWUlnTWpBdU1EWXVNakF4TXpBT0JnTlZIUThCQWY4RUJBTUNBK2d3WUFZRFZSMGxCRmt3VndZSUt3WUJCUVVIQXdJR0N5cUZBd005bnRjMkFRWUJCZzRxaFFNRFBaN1hOZ0VHQXdRQkFRWU9Lb1VEQXoyZTF6WUJCZ01FQVFJR0RpcUZBd005bnRjMkFRWURCQUVEQmc0cWhRTURQWjdYTmdFR0F3UUJCREFyQmdOVkhSQUVKREFpZ0E4eU1ERTJNRFV3TkRFeU1EZ3pObHFCRHpJd01UY3dPREEwTVRJd09ETTJXakNDQVk4R0ExVWRJd1NDQVlZd2dnR0NnQlNlY1E0UDJyUUJLRjgvNHN1UFpSV1hBa2VNcTZHQ0FXV2tnZ0ZoTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExDQ0FRRXdYZ1lEVlIwZkJGY3dWVEFwb0NlZ0pZWWphSFIwY0RvdkwyTnliQzV5YjNOcllYcHVZUzV5ZFM5amNtd3ZabXN3TVM1amNtd3dLS0Ftb0NTR0ltaDBkSEE2THk5amNtd3Vabk5tYXk1c2IyTmhiQzlqY213dlptc3dNUzVqY213d0hRWURWUjBPQkJZRUZCeG5adjVMZll1dmR4QU5rZjJ3UVhZSG1EYW5NQWdHQmlxRkF3SUNBd05CQUQ0elNGbzdlVFRReUV6SGVWZTV3TFpmMXpWWUFGeVVURnRSZlFOdVIwbzZuZjBGcTFUakdhUVVSbzUwY1hhVm05OEZJcG40cE9sa3F5WlEraVVER1RReGdnUDNNSUlEOHdJQkFUQ0NBV1l3Z2dGZE1SZ3dGZ1lKS29aSWh2Y05BUWtDRXdsVFpYSjJaWElnUTBFeElEQWVCZ2txaGtpRzl3MEJDUUVXRVhWalgyWnJRSEp2YzJ0aGVtNWhMbkoxTVJ3d0dnWURWUVFJREJNM055RFFzeTRnMEp6UXZ0R0IwTHJRc3RDd01Sb3dHQVlJS29VREE0RURBUUVTRERBd056Y3hNRFUyT0RjMk1ERVlNQllHQlNxRkEyUUJFZzB4TURRM056azNNREU1T0RNd01Td3dLZ1lEVlFRSkRDUFJnOUM3MExqUmh0Q3dJTkNZMEx2UmpOQzQwTDNRdXRDd0xDRFF0TkMrMEx3Z056RVZNQk1HQTFVRUJ3d00wSnpRdnRHQjBMclFzdEN3TVFzd0NRWURWUVFHRXdKU1ZURTRNRFlHQTFVRUNnd3YwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRdFNEUXV0Q3cwTGZRdmRDdzBZZlF0ZEM1MFlIUmd0Q3kwTDR4UHpBOUJnTlZCQU1NTnRDajBLWWcwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRczlDK0lOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRc0FJREZsZy9NQW9HQmlxRkF3SUNDUVVBb0lJQ0tEQVlCZ2txaGtpRzl3MEJDUU14Q3dZSktvWklodmNOQVFjQk1Cd0dDU3FHU0liM0RRRUpCVEVQRncweE56QXhNekV3TlRVME5UVmFNQzhHQ1NxR1NJYjNEUUVKQkRFaUJDQ0lGWmlLbkRlRXQyc1RGcEM1NUVpMkswMER2VXBkK3pOenFOSU1BQ0FkbmpDQ0Fic0dDeXFHU0liM0RRRUpFQUl2TVlJQnFqQ0NBYVl3Z2dHaU1JSUJuakFJQmdZcWhRTUNBZ2tFSUZOZC9oaFVyZWJVTGNNcnBQTUk1YklmVDNFSXVCSXdNVEVaejNGdzNpYlVNSUlCYmpDQ0FXV2tnZ0ZoTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBQ0F4WllQekFLQmdZcWhRTUNBaE1GQUFSQWVyRDF5WmlMamdhQmFNR2ZSTnB6RDBRdkFkcExLTHp5azVjcS95UXhTR2RrWThaNFAwbWFYSDluWDhCYkREL2twT1VhN05nQkVUU2l1dGQ0T1plZitnPT0=
+            </signature>
+            <signature>
+                TUlJTUNRWUpLb1pJaHZjTkFRY0NvSUlMK2pDQ0MvWUNBUVF4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2dmWE1JSUgwekNDQjRLZ0F3SUJBZ0lERkJuNE1BZ0dCaXFGQXdJQ0F6Q0NBVjB4R0RBV0Jna3Foa2lHOXcwQkNRSVRDVk5sY25abGNpQkRRVEVnTUI0R0NTcUdTSWIzRFFFSkFSWVJkV05mWm10QWNtOXphMkY2Ym1FdWNuVXhIREFhQmdOVkJBZ01FemMzSU5DekxpRFFuTkMrMFlIUXV0Q3kwTEF4R2pBWUJnZ3FoUU1EZ1FNQkFSSU1NREEzTnpFd05UWTROell3TVJnd0ZnWUZLb1VEWkFFU0RURXdORGMzT1Rjd01UazRNekF4TERBcUJnTlZCQWtNSTlHRDBMdlF1TkdHMExBZzBKalF1OUdNMExqUXZkQzYwTEFzSU5DMDBMN1F2Q0EzTVJVd0V3WURWUVFIREF6UW5OQyswWUhRdXRDeTBMQXhDekFKQmdOVkJBWVRBbEpWTVRnd05nWURWUVFLREMvUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0QzFJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXZqRS9NRDBHQTFVRUF3dzIwS1BRcGlEUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0Q3owTDRnMExyUXNOQzMwTDNRc05HSDBMWFF1ZEdCMFlMUXN0Q3dNQjRYRFRFMk1ESXlPVEUwTURreE1Gb1hEVEUzTURVeU9URTBNRGt4TUZvd2dnRXNNUm93R0FZSUtvVURBNEVEQVFFU0REQXdOemN4TURVMk9EYzJNREVZTUJZR0JTcUZBMlFCRWcweE1EUTNOemszTURFNU9ETXdNUm93R0FZRFZRUUpEQkhRbU5DNzBZelF1TkM5MExyUXNDd2dOekVpTUNBR0NTcUdTSWIzRFFFSkFSWVRjbWRoYkdsbGRrQnliM05yWVhwdVlTNXlkVEVMTUFrR0ExVUVCaE1DVWxVeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFNE1EWUdBMVVFQ2d3djBLVFF0ZEMwMExYUmdOQ3cwTHZSak5DOTBMN1F0U0RRdXRDdzBMZlF2ZEN3MFlmUXRkQzUwWUhSZ3RDeTBMNHhPREEyQmdOVkJBTU1MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTUdNd0hBWUdLb1VEQWdJVE1CSUdCeXFGQXdJQ0pBQUdCeXFGQXdJQ0hnRURRd0FFUU9yOVUydDAzdXJOa0JYc2l5UkhhdGc5RVlPSEZYQ0NoUzVBWHJMbW0vVnFONFhJMUVxbTcxckpPa1Nra0NKQ0NzU2Ftbjk4bmFKNTZMNnZheHNWZ1hTamdnUlVNSUlFVURBTUJnTlZIUk1CQWY4RUFqQUFNQjBHQTFVZElBUVdNQlF3Q0FZR0tvVURaSEVCTUFnR0JpcUZBMlJ4QWpBZ0JnTlZIUkVFR1RBWG9CSUdBMVVFREtBTEV3a3lNamt4TnpBMU5UV0dBVEF3TmdZRktvVURaRzhFTFF3ckl0Q2EwWURRdU5DLzBZTFF2dENmMFlEUXZpQkRVMUFpSUNqUXN0QzEwWURSZ2RDNDBZOGdNeTQyS1RDQ0FXRUdCU3FGQTJSd0JJSUJWakNDQVZJTVJDTFFtdEdBMExqUXY5R0MwTDdRbjlHQTBMNGdRMU5RSWlBbzBMTFF0ZEdBMFlIUXVOR1BJRE11TmlrZ0tOQzQwWUhRdjlDKzBMdlF2ZEMxMEwzUXVOQzFJRElwREdnaTBKL1JnTkMrMExQUmdOQ3cwTHpRdk5DOTBMNHQwTERRdjlDLzBMRFJnTkN3MFlMUXZkR0wwTGtnMExyUXZ0QzgwTC9RdTlDMTBMclJnU0FpMEs3UXZkQzQwWUhRdGRHQTBZSXQwSlBRbnRDaDBLSWlMaURRa3RDMTBZRFJnZEM0MFk4Z01pNHhJZ3hQMEtIUXRkR0EwWUxRdU5HRTBMalF1dEN3MFlJZzBZSFF2dEMrMFlMUXN0QzEwWUxSZ2RHQzBMTFF1TkdQSU9LRWxpRFFvZENrTHpFeU5DMHlOek00SU5DKzBZSWdNREV1TURjdU1qQXhOUXhQMEtIUXRkR0EwWUxRdU5HRTBMalF1dEN3MFlJZzBZSFF2dEMrMFlMUXN0QzEwWUxSZ2RHQzBMTFF1TkdQSU9LRWxpRFFvZENrTHpFeU9DMHlNVGMxSU5DKzBZSWdNakF1TURZdU1qQXhNekFPQmdOVkhROEJBZjhFQkFNQ0EvZ3dFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUhBd0l3S3dZRFZSMFFCQ1F3SW9BUE1qQXhOakF5TWpreE5EQTRNemxhZ1E4eU1ERTNNRFV5T1RFME1EZ3pPVm93Z2dHUEJnTlZIU01FZ2dHR01JSUJnb0FVbm5FT0Q5cTBBU2hmUCtMTGoyVVZsd0pIakt1aGdnRmxwSUlCWVRDQ0FWMHhHREFXQmdrcWhraUc5dzBCQ1FJVENWTmxjblpsY2lCRFFURWdNQjRHQ1NxR1NJYjNEUUVKQVJZUmRXTmZabXRBY205emEyRjZibUV1Y25VeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhHakFZQmdncWhRTURnUU1CQVJJTU1EQTNOekV3TlRZNE56WXdNUmd3RmdZRktvVURaQUVTRFRFd05EYzNPVGN3TVRrNE16QXhMREFxQmdOVkJBa01JOUdEMEx2UXVOR0cwTEFnMEpqUXU5R00wTGpRdmRDNjBMQXNJTkMwMEw3UXZDQTNNUlV3RXdZRFZRUUhEQXpRbk5DKzBZSFF1dEN5MExBeEN6QUpCZ05WQkFZVEFsSlZNVGd3TmdZRFZRUUtEQy9RcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDMUlOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRdmpFL01EMEdBMVVFQXd3MjBLUFFwaURRcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDejBMNGcwTHJRc05DMzBMM1FzTkdIMExYUXVkR0IwWUxRc3RDd2dnRUJNRjRHQTFVZEh3UlhNRlV3S2FBbm9DV0dJMmgwZEhBNkx5OWpjbXd1Y205emEyRjZibUV1Y25VdlkzSnNMMlpyTURFdVkzSnNNQ2lnSnFBa2hpSm9kSFJ3T2k4dlkzSnNMbVp6Wm1zdWJHOWpZV3d2WTNKc0wyWnJNREV1WTNKc01CMEdBMVVkRGdRV0JCUmlBYk1SVnF6TEl6K2xNcXcxZy95WHFXb0RBekFJQmdZcWhRTUNBZ01EUVFDNlNHcGVPeDNnZ2U1SnBNUXZlQmlsK2tndVZiZHZLNWFwL3VwVWlWMVRPNnN0Tm8wbStURkpIK3poWnBsTlRKaHMrRXkwcEo2UTIwMU9GWisrYmlBTU1ZSUQrVENDQS9VQ0FRRXdnZ0ZtTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBQ0F4UVorREFLQmdZcWhRTUNBZ2tGQUtDQ0Fpb3dHQVlKS29aSWh2Y05BUWtETVFzR0NTcUdTSWIzRFFFSEFUQWNCZ2txaGtpRzl3MEJDUVV4RHhjTk1UY3dNVE14TURVMU5USTBXakF2QmdrcWhraUc5dzBCQ1FReElnUWdpQldZaXB3M2hMZHJFeGFRdWVSSXRpdE5BNzFLWGZzemM2alNEQUFnSFo0d2dnRzlCZ3NxaGtpRzl3MEJDUkFDTHpHQ0Fhd3dnZ0dvTUlJQnBEQ0NBYUF3Q2dZR0tvVURBZ0lKQlFBRUlLL3grUmhlaUxBRXlDQTk5OUIwZTkrRlNMYVlmQU40RXgrcFN1MmcyT1ljTUlJQmJqQ0NBV1drZ2dGaE1JSUJYVEVZTUJZR0NTcUdTSWIzRFFFSkFoTUpVMlZ5ZG1WeUlFTkJNU0F3SGdZSktvWklodmNOQVFrQkZoRjFZMTltYTBCeWIzTnJZWHB1WVM1eWRURWNNQm9HQTFVRUNBd1ROemNnMExNdUlOQ2MwTDdSZ2RDNjBMTFFzREVhTUJnR0NDcUZBd09CQXdFQkVnd3dNRGMzTVRBMU5qZzNOakF4R0RBV0JnVXFoUU5rQVJJTk1UQTBOemM1TnpBeE9UZ3pNREVzTUNvR0ExVUVDUXdqMFlQUXU5QzQwWWJRc0NEUW1OQzcwWXpRdU5DOTBMclFzQ3dnMExUUXZ0QzhJRGN4RlRBVEJnTlZCQWNNRE5DYzBMN1JnZEM2MExMUXNERUxNQWtHQTFVRUJoTUNVbFV4T0RBMkJnTlZCQW9NTDlDazBMWFF0TkMxMFlEUXNOQzcwWXpRdmRDKzBMVWcwTHJRc05DMzBMM1FzTkdIMExYUXVkR0IwWUxRc3RDK01UOHdQUVlEVlFRREREYlFvOUNtSU5DazBMWFF0TkMxMFlEUXNOQzcwWXpRdmRDKzBMUFF2aURRdXRDdzBMZlF2ZEN3MFlmUXRkQzUwWUhSZ3RDeTBMQUNBeFFaK0RBS0JnWXFoUU1DQWhNRkFBUkFjOGdBaFJoaW9laUZncFM5M2V2K3gzS0ZQaFlsclgxTUpzY3Mzd0lnejRjeDNXbXRaRjQyK1Z5SnU3aEFOdng5c3RTemIrTy9KakhuLzREK2YyendwUT09
+            </signature>
+        </printForm>
+        <scanDocuments>
+            <attachment>
+                <publishedContentId>475AFEA4B83B00BAE0530A86120DF53D</publishedContentId>
+                <fileName>Контракт № 338-16-ЭА.doc</fileName>
+                <docDescription>Контракт № 338-16-ЭА</docDescription>
+                <docRegNumber>17733046721170000420002</docRegNumber>
+                <url>
+                    http://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=475AFEA4B83B00BAE0530A86120DF53D
+                </url>
+                <cryptoSigns>
+                    <signature>
+                        TUlJTThBWUpLb1pJaHZjTkFRY0NvSUlNNFRDQ0ROMENBUUV4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2dqQU1JSUl2RENDQ0d1Z0F3SUJBZ0lERmxnL01BZ0dCaXFGQXdJQ0F6Q0NBVjB4R0RBV0Jna3Foa2lHOXcwQkNRSVRDVk5sY25abGNpQkRRVEVnTUI0R0NTcUdTSWIzRFFFSkFSWVJkV05mWm10QWNtOXphMkY2Ym1FdWNuVXhIREFhQmdOVkJBZ01FemMzSU5DekxpRFFuTkMrMFlIUXV0Q3kwTEF4R2pBWUJnZ3FoUU1EZ1FNQkFSSU1NREEzTnpFd05UWTROell3TVJnd0ZnWUZLb1VEWkFFU0RURXdORGMzT1Rjd01UazRNekF4TERBcUJnTlZCQWtNSTlHRDBMdlF1TkdHMExBZzBKalF1OUdNMExqUXZkQzYwTEFzSU5DMDBMN1F2Q0EzTVJVd0V3WURWUVFIREF6UW5OQyswWUhRdXRDeTBMQXhDekFKQmdOVkJBWVRBbEpWTVRnd05nWURWUVFLREMvUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0QzFJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXZqRS9NRDBHQTFVRUF3dzIwS1BRcGlEUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0Q3owTDRnMExyUXNOQzMwTDNRc05HSDBMWFF1ZEdCMFlMUXN0Q3dNQjRYRFRFMk1EVXdOREV5TURnME4xb1hEVEUzTURnd05ERXlNRGcwTjFvd2dnR1FNUm93R0FZSUtvVURBNEVEQVFFU0REVXlOakV3TkRNMU9EQXhNekVXTUJRR0JTcUZBMlFERWdzd01UZ3pOelEyTmpFMk16RVlNQllHQlNxRkEyUUJFZzB4TURJM056TTVOek14TkRreE1SMHdHd1lKS29aSWh2Y05BUWtCRmc1aGQyRnJaVUJqYTJKbllTNXlkVEVMTUFrR0ExVUVCaE1DVWxVeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFVU1CSUdBMVVFQ2d3TDBLYlFtdENSSU5DVDBKQXhIekFkQmdOVkJBc01GdENnMFlQUXV0QyswTExRdnRDMDBZSFJndEN5MEw0eEtqQW9CZ05WQkNvTUlkQ2QwTERSZ3RDdzBMdlJqTkdQSU5DUjBMN1JnTkM0MFlIUXZ0Q3kwTDNRc0RFYk1Ca0dBMVVFQkF3UzBKZlFzTkN4MFlEUXZ0QzAwTGpRdmRDd01TQXdIZ1lEVlFRTURCZlFrOUM3MExEUXN0QzkwWXZRdVNEUXN0R0EwTERSaHpFOU1Ec0dBMVVFQXd3MDBKZlFzTkN4MFlEUXZ0QzAwTGpRdmRDd0lOQ2QwTERSZ3RDdzBMdlJqTkdQSU5DUjBMN1JnTkM0MFlIUXZ0Q3kwTDNRc0RCak1Cd0dCaXFGQXdJQ0V6QVNCZ2NxaFFNQ0FpUUFCZ2NxaFFNQ0FoNEJBME1BQkVCNVpVYmZabk1BMjc2d1RIY3BuWlhXeUhScVBnK0JERHRHOWhKUGNmam9GelFlbVcvNHZuMnpTVE16eG1tK2RuQksrU2RHdHg0OFhycGQrZ2pGb1dlU280SUUyVENDQk5Vd0RBWURWUjBUQVFIL0JBSXdBREFkQmdOVkhTQUVGakFVTUFnR0JpcUZBMlJ4QVRBSUJnWXFoUU5rY1FJd1dBWURWUjBSQkZFd1Q2QVNCZ05WQkF5Z0N4TUpOREV3TVRNeE1qUXdvQmtHQ2lxRkF3TTludGMyQVFlZ0N4TUpOemN6TXpBeE1EQXhvQnNHQ2lxRkF3TTludGMyQVFXZ0RSTUxNRE0zTXpFd01EQTRPREdHQVRBd05nWUZLb1VEWkc4RUxRd3JJdENhMFlEUXVOQy8wWUxRdnRDZjBZRFF2aUJEVTFBaUlDalFzdEMxMFlEUmdkQzQwWThnTXk0NUtUQ0NBV0VHQlNxRkEyUndCSUlCVmpDQ0FWSU1SQ0xRbXRHQTBMalF2OUdDMEw3UW45R0EwTDRnUTFOUUlpQW8wTExRdGRHQTBZSFF1TkdQSURNdU5pa2dLTkM0MFlIUXY5QyswTHZRdmRDMTBMM1F1TkMxSURJcERHZ2kwSi9SZ05DKzBMUFJnTkN3MEx6UXZOQzkwTDR0MExEUXY5Qy8wTERSZ05DdzBZTFF2ZEdMMExrZzBMclF2dEM4MEwvUXU5QzEwTHJSZ1NBaTBLN1F2ZEM0MFlIUXRkR0EwWUl0MEpQUW50Q2gwS0lpTGlEUWt0QzEwWURSZ2RDNDBZOGdNaTR4SWd4UDBLSFF0ZEdBMFlMUXVOR0UwTGpRdXRDdzBZSWcwWUhRdnRDKzBZTFFzdEMxMFlMUmdkR0MwTExRdU5HUElPS0VsaURRb2RDa0x6RXlOQzB5TnpNNElOQyswWUlnTURFdU1EY3VNakF4TlF4UDBLSFF0ZEdBMFlMUXVOR0UwTGpRdXRDdzBZSWcwWUhRdnRDKzBZTFFzdEMxMFlMUmdkR0MwTExRdU5HUElPS0VsaURRb2RDa0x6RXlPQzB5TVRjMUlOQyswWUlnTWpBdU1EWXVNakF4TXpBT0JnTlZIUThCQWY4RUJBTUNBK2d3WUFZRFZSMGxCRmt3VndZSUt3WUJCUVVIQXdJR0N5cUZBd005bnRjMkFRWUJCZzRxaFFNRFBaN1hOZ0VHQXdRQkFRWU9Lb1VEQXoyZTF6WUJCZ01FQVFJR0RpcUZBd005bnRjMkFRWURCQUVEQmc0cWhRTURQWjdYTmdFR0F3UUJCREFyQmdOVkhSQUVKREFpZ0E4eU1ERTJNRFV3TkRFeU1EZ3pObHFCRHpJd01UY3dPREEwTVRJd09ETTJXakNDQVk4R0ExVWRJd1NDQVlZd2dnR0NnQlNlY1E0UDJyUUJLRjgvNHN1UFpSV1hBa2VNcTZHQ0FXV2tnZ0ZoTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExDQ0FRRXdYZ1lEVlIwZkJGY3dWVEFwb0NlZ0pZWWphSFIwY0RvdkwyTnliQzV5YjNOcllYcHVZUzV5ZFM5amNtd3ZabXN3TVM1amNtd3dLS0Ftb0NTR0ltaDBkSEE2THk5amNtd3Vabk5tYXk1c2IyTmhiQzlqY213dlptc3dNUzVqY213d0hRWURWUjBPQkJZRUZCeG5adjVMZll1dmR4QU5rZjJ3UVhZSG1EYW5NQWdHQmlxRkF3SUNBd05CQUQ0elNGbzdlVFRReUV6SGVWZTV3TFpmMXpWWUFGeVVURnRSZlFOdVIwbzZuZjBGcTFUakdhUVVSbzUwY1hhVm05OEZJcG40cE9sa3F5WlEraVVER1RReGdnUDNNSUlEOHdJQkFUQ0NBV1l3Z2dGZE1SZ3dGZ1lKS29aSWh2Y05BUWtDRXdsVFpYSjJaWElnUTBFeElEQWVCZ2txaGtpRzl3MEJDUUVXRVhWalgyWnJRSEp2YzJ0aGVtNWhMbkoxTVJ3d0dnWURWUVFJREJNM055RFFzeTRnMEp6UXZ0R0IwTHJRc3RDd01Sb3dHQVlJS29VREE0RURBUUVTRERBd056Y3hNRFUyT0RjMk1ERVlNQllHQlNxRkEyUUJFZzB4TURRM056azNNREU1T0RNd01Td3dLZ1lEVlFRSkRDUFJnOUM3MExqUmh0Q3dJTkNZMEx2UmpOQzQwTDNRdXRDd0xDRFF0TkMrMEx3Z056RVZNQk1HQTFVRUJ3d00wSnpRdnRHQjBMclFzdEN3TVFzd0NRWURWUVFHRXdKU1ZURTRNRFlHQTFVRUNnd3YwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRdFNEUXV0Q3cwTGZRdmRDdzBZZlF0ZEM1MFlIUmd0Q3kwTDR4UHpBOUJnTlZCQU1NTnRDajBLWWcwS1RRdGRDMDBMWFJnTkN3MEx2UmpOQzkwTDdRczlDK0lOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRc0FJREZsZy9NQW9HQmlxRkF3SUNDUVVBb0lJQ0tEQVlCZ2txaGtpRzl3MEJDUU14Q3dZSktvWklodmNOQVFjQk1Cd0dDU3FHU0liM0RRRUpCVEVQRncweE56QXhNekV3TlRVek16RmFNQzhHQ1NxR1NJYjNEUUVKQkRFaUJDQXlRRmJXUlRCNU96UnUySTU1KzNCOC9FcDlpNkwrL0FwMGZOMlBYUzdOaGpDQ0Fic0dDeXFHU0liM0RRRUpFQUl2TVlJQnFqQ0NBYVl3Z2dHaU1JSUJuakFJQmdZcWhRTUNBZ2tFSUZOZC9oaFVyZWJVTGNNcnBQTUk1YklmVDNFSXVCSXdNVEVaejNGdzNpYlVNSUlCYmpDQ0FXV2tnZ0ZoTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBQ0F4WllQekFLQmdZcWhRTUNBaE1GQUFSQWJXeHpnR01ZZWtaMzNQbFJOaG9DWFR4Qm1nUmhRUElwUlc3cW5yQVJ3MXVSNStFd1FoMG5ucGJ4eXlPR2RHN2YrZHQ0Q1Y1aXdLblVkdStrYlcrUzR3PT0=
+                    </signature>
+                    <signature>
+                        TUlJTUNRWUpLb1pJaHZjTkFRY0NvSUlMK2pDQ0MvWUNBUVF4RERBS0JnWXFoUU1DQWdrRkFEQUxCZ2txaGtpRzl3MEJCd0dnZ2dmWE1JSUgwekNDQjRLZ0F3SUJBZ0lERkJuNE1BZ0dCaXFGQXdJQ0F6Q0NBVjB4R0RBV0Jna3Foa2lHOXcwQkNRSVRDVk5sY25abGNpQkRRVEVnTUI0R0NTcUdTSWIzRFFFSkFSWVJkV05mWm10QWNtOXphMkY2Ym1FdWNuVXhIREFhQmdOVkJBZ01FemMzSU5DekxpRFFuTkMrMFlIUXV0Q3kwTEF4R2pBWUJnZ3FoUU1EZ1FNQkFSSU1NREEzTnpFd05UWTROell3TVJnd0ZnWUZLb1VEWkFFU0RURXdORGMzT1Rjd01UazRNekF4TERBcUJnTlZCQWtNSTlHRDBMdlF1TkdHMExBZzBKalF1OUdNMExqUXZkQzYwTEFzSU5DMDBMN1F2Q0EzTVJVd0V3WURWUVFIREF6UW5OQyswWUhRdXRDeTBMQXhDekFKQmdOVkJBWVRBbEpWTVRnd05nWURWUVFLREMvUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0QzFJTkM2MExEUXQ5QzkwTERSaDlDMTBMblJnZEdDMExMUXZqRS9NRDBHQTFVRUF3dzIwS1BRcGlEUXBOQzEwTFRRdGRHQTBMRFF1OUdNMEwzUXZ0Q3owTDRnMExyUXNOQzMwTDNRc05HSDBMWFF1ZEdCMFlMUXN0Q3dNQjRYRFRFMk1ESXlPVEUwTURreE1Gb1hEVEUzTURVeU9URTBNRGt4TUZvd2dnRXNNUm93R0FZSUtvVURBNEVEQVFFU0REQXdOemN4TURVMk9EYzJNREVZTUJZR0JTcUZBMlFCRWcweE1EUTNOemszTURFNU9ETXdNUm93R0FZRFZRUUpEQkhRbU5DNzBZelF1TkM5MExyUXNDd2dOekVpTUNBR0NTcUdTSWIzRFFFSkFSWVRjbWRoYkdsbGRrQnliM05yWVhwdVlTNXlkVEVMTUFrR0ExVUVCaE1DVWxVeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFNE1EWUdBMVVFQ2d3djBLVFF0ZEMwMExYUmdOQ3cwTHZSak5DOTBMN1F0U0RRdXRDdzBMZlF2ZEN3MFlmUXRkQzUwWUhSZ3RDeTBMNHhPREEyQmdOVkJBTU1MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTUdNd0hBWUdLb1VEQWdJVE1CSUdCeXFGQXdJQ0pBQUdCeXFGQXdJQ0hnRURRd0FFUU9yOVUydDAzdXJOa0JYc2l5UkhhdGc5RVlPSEZYQ0NoUzVBWHJMbW0vVnFONFhJMUVxbTcxckpPa1Nra0NKQ0NzU2Ftbjk4bmFKNTZMNnZheHNWZ1hTamdnUlVNSUlFVURBTUJnTlZIUk1CQWY4RUFqQUFNQjBHQTFVZElBUVdNQlF3Q0FZR0tvVURaSEVCTUFnR0JpcUZBMlJ4QWpBZ0JnTlZIUkVFR1RBWG9CSUdBMVVFREtBTEV3a3lNamt4TnpBMU5UV0dBVEF3TmdZRktvVURaRzhFTFF3ckl0Q2EwWURRdU5DLzBZTFF2dENmMFlEUXZpQkRVMUFpSUNqUXN0QzEwWURSZ2RDNDBZOGdNeTQyS1RDQ0FXRUdCU3FGQTJSd0JJSUJWakNDQVZJTVJDTFFtdEdBMExqUXY5R0MwTDdRbjlHQTBMNGdRMU5RSWlBbzBMTFF0ZEdBMFlIUXVOR1BJRE11TmlrZ0tOQzQwWUhRdjlDKzBMdlF2ZEMxMEwzUXVOQzFJRElwREdnaTBKL1JnTkMrMExQUmdOQ3cwTHpRdk5DOTBMNHQwTERRdjlDLzBMRFJnTkN3MFlMUXZkR0wwTGtnMExyUXZ0QzgwTC9RdTlDMTBMclJnU0FpMEs3UXZkQzQwWUhRdGRHQTBZSXQwSlBRbnRDaDBLSWlMaURRa3RDMTBZRFJnZEM0MFk4Z01pNHhJZ3hQMEtIUXRkR0EwWUxRdU5HRTBMalF1dEN3MFlJZzBZSFF2dEMrMFlMUXN0QzEwWUxSZ2RHQzBMTFF1TkdQSU9LRWxpRFFvZENrTHpFeU5DMHlOek00SU5DKzBZSWdNREV1TURjdU1qQXhOUXhQMEtIUXRkR0EwWUxRdU5HRTBMalF1dEN3MFlJZzBZSFF2dEMrMFlMUXN0QzEwWUxSZ2RHQzBMTFF1TkdQSU9LRWxpRFFvZENrTHpFeU9DMHlNVGMxSU5DKzBZSWdNakF1TURZdU1qQXhNekFPQmdOVkhROEJBZjhFQkFNQ0EvZ3dFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUhBd0l3S3dZRFZSMFFCQ1F3SW9BUE1qQXhOakF5TWpreE5EQTRNemxhZ1E4eU1ERTNNRFV5T1RFME1EZ3pPVm93Z2dHUEJnTlZIU01FZ2dHR01JSUJnb0FVbm5FT0Q5cTBBU2hmUCtMTGoyVVZsd0pIakt1aGdnRmxwSUlCWVRDQ0FWMHhHREFXQmdrcWhraUc5dzBCQ1FJVENWTmxjblpsY2lCRFFURWdNQjRHQ1NxR1NJYjNEUUVKQVJZUmRXTmZabXRBY205emEyRjZibUV1Y25VeEhEQWFCZ05WQkFnTUV6YzNJTkN6TGlEUW5OQyswWUhRdXRDeTBMQXhHakFZQmdncWhRTURnUU1CQVJJTU1EQTNOekV3TlRZNE56WXdNUmd3RmdZRktvVURaQUVTRFRFd05EYzNPVGN3TVRrNE16QXhMREFxQmdOVkJBa01JOUdEMEx2UXVOR0cwTEFnMEpqUXU5R00wTGpRdmRDNjBMQXNJTkMwMEw3UXZDQTNNUlV3RXdZRFZRUUhEQXpRbk5DKzBZSFF1dEN5MExBeEN6QUpCZ05WQkFZVEFsSlZNVGd3TmdZRFZRUUtEQy9RcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDMUlOQzYwTERRdDlDOTBMRFJoOUMxMExuUmdkR0MwTExRdmpFL01EMEdBMVVFQXd3MjBLUFFwaURRcE5DMTBMVFF0ZEdBMExEUXU5R00wTDNRdnRDejBMNGcwTHJRc05DMzBMM1FzTkdIMExYUXVkR0IwWUxRc3RDd2dnRUJNRjRHQTFVZEh3UlhNRlV3S2FBbm9DV0dJMmgwZEhBNkx5OWpjbXd1Y205emEyRjZibUV1Y25VdlkzSnNMMlpyTURFdVkzSnNNQ2lnSnFBa2hpSm9kSFJ3T2k4dlkzSnNMbVp6Wm1zdWJHOWpZV3d2WTNKc0wyWnJNREV1WTNKc01CMEdBMVVkRGdRV0JCUmlBYk1SVnF6TEl6K2xNcXcxZy95WHFXb0RBekFJQmdZcWhRTUNBZ01EUVFDNlNHcGVPeDNnZ2U1SnBNUXZlQmlsK2tndVZiZHZLNWFwL3VwVWlWMVRPNnN0Tm8wbStURkpIK3poWnBsTlRKaHMrRXkwcEo2UTIwMU9GWisrYmlBTU1ZSUQrVENDQS9VQ0FRRXdnZ0ZtTUlJQlhURVlNQllHQ1NxR1NJYjNEUUVKQWhNSlUyVnlkbVZ5SUVOQk1TQXdIZ1lKS29aSWh2Y05BUWtCRmhGMVkxOW1hMEJ5YjNOcllYcHVZUzV5ZFRFY01Cb0dBMVVFQ0F3VE56Y2cwTE11SU5DYzBMN1JnZEM2MExMUXNERWFNQmdHQ0NxRkF3T0JBd0VCRWd3d01EYzNNVEExTmpnM05qQXhHREFXQmdVcWhRTmtBUklOTVRBME56YzVOekF4T1Rnek1ERXNNQ29HQTFVRUNRd2owWVBRdTlDNDBZYlFzQ0RRbU5DNzBZelF1TkM5MExyUXNDd2cwTFRRdnRDOElEY3hGVEFUQmdOVkJBY01ETkNjMEw3UmdkQzYwTExRc0RFTE1Ba0dBMVVFQmhNQ1VsVXhPREEyQmdOVkJBb01MOUNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExVZzBMclFzTkMzMEwzUXNOR0gwTFhRdWRHQjBZTFFzdEMrTVQ4d1BRWURWUVFERERiUW85Q21JTkNrMExYUXROQzEwWURRc05DNzBZelF2ZEMrMExQUXZpRFF1dEN3MExmUXZkQ3cwWWZRdGRDNTBZSFJndEN5MExBQ0F4UVorREFLQmdZcWhRTUNBZ2tGQUtDQ0Fpb3dHQVlKS29aSWh2Y05BUWtETVFzR0NTcUdTSWIzRFFFSEFUQWNCZ2txaGtpRzl3MEJDUVV4RHhjTk1UY3dNVE14TURVMU16VTRXakF2QmdrcWhraUc5dzBCQ1FReElnUWdNa0JXMWtVd2VUczBidGlPZWZ0d2ZQeEtmWXVpL3Z3S2RIemRqMTB1ellZd2dnRzlCZ3NxaGtpRzl3MEJDUkFDTHpHQ0Fhd3dnZ0dvTUlJQnBEQ0NBYUF3Q2dZR0tvVURBZ0lKQlFBRUlLL3grUmhlaUxBRXlDQTk5OUIwZTkrRlNMYVlmQU40RXgrcFN1MmcyT1ljTUlJQmJqQ0NBV1drZ2dGaE1JSUJYVEVZTUJZR0NTcUdTSWIzRFFFSkFoTUpVMlZ5ZG1WeUlFTkJNU0F3SGdZSktvWklodmNOQVFrQkZoRjFZMTltYTBCeWIzTnJZWHB1WVM1eWRURWNNQm9HQTFVRUNBd1ROemNnMExNdUlOQ2MwTDdSZ2RDNjBMTFFzREVhTUJnR0NDcUZBd09CQXdFQkVnd3dNRGMzTVRBMU5qZzNOakF4R0RBV0JnVXFoUU5rQVJJTk1UQTBOemM1TnpBeE9UZ3pNREVzTUNvR0ExVUVDUXdqMFlQUXU5QzQwWWJRc0NEUW1OQzcwWXpRdU5DOTBMclFzQ3dnMExUUXZ0QzhJRGN4RlRBVEJnTlZCQWNNRE5DYzBMN1JnZEM2MExMUXNERUxNQWtHQTFVRUJoTUNVbFV4T0RBMkJnTlZCQW9NTDlDazBMWFF0TkMxMFlEUXNOQzcwWXpRdmRDKzBMVWcwTHJRc05DMzBMM1FzTkdIMExYUXVkR0IwWUxRc3RDK01UOHdQUVlEVlFRREREYlFvOUNtSU5DazBMWFF0TkMxMFlEUXNOQzcwWXpRdmRDKzBMUFF2aURRdXRDdzBMZlF2ZEN3MFlmUXRkQzUwWUhSZ3RDeTBMQUNBeFFaK0RBS0JnWXFoUU1DQWhNRkFBUkFaSEoycWpocmRQanBOTzVDcnFidkVFTGU3UWNlRlRUYkoyRm5LUzQ0S05LWWxzWm1BT3psQ2I1VmVHMWVvSFl0bU40amxwZEVPdkF2L3ZlTDMwVU50dz09
+                    </signature>
+                </cryptoSigns>
+            </attachment>
+        </scanDocuments>
+        <currentContractStage>E</currentContractStage>
+        <okpd2okved2>true</okpd2okved2>
+    </ns2:contract>
+</ns2:export>

@@ -1,0 +1,60 @@
+Версия 7.0.24
+
+   IntegrationTypes.xsd
+
+FCSNF-3943 Доработка интеграции для осуществления постконтроля по 99 статье (РМИС, AS2, ЭП)
+
+1. В типе "Результат обработки для бесшовной интеграции с присвоенным реестровым номером и датой публикации документа" (zfcs_signIncomingConfirmationType)
+   
+   - в блоке "Данные о размещении документов контроля по 99 статье в ЕИС" (success\control99DocsInfo) добавлен 
+     необязательный choice и поле "Идентификатор сообщения об отказе в принятии на контроль по 99 статье" (control99RefusalMessageUid)
+
+   - в блоке "Данные о размещении документов контроля по 99 статье в ЕИС" (success\control99DocsInfo) добавлен 
+     необязательный choice и в choice поля "Идентификатор уведомления о соответствии контролируемой информации" (control99NoticeComplianceUid) и
+     "Идентификатор протокола о несоответствии контролируемой информации" (control99ProtocolMismatchUid)
+
+   - из корня блока "Данные о размещении документов контроля по 99 статье в ЕИС" (success\control99DocsInfo) удалено поле 
+     "Идентификатор протокола о несоответствии контролируемой информации (в связи с уменьшением средств)" (control99ProtocolMismatchUid)    
+
+   - добавлено необязательное поле "Идентификатор протокола о несоответствии контролируемой информации (в связи с уменьшением средств)" (control99ProtocolMismatchReductFundsUid)
+
+
+
+   fcsPrintForm.xsd 
+
+
+   fcsExport.xsd 
+
+
+
+
+
+   fcsIntegration.xsd
+
+
+
+
+
+   fcsEisSignIncoming.xsd
+
+
+
+   eisSigningSOAPMessages.xsd
+
+
+
+   fcsInternal.xsd
+
+
+
+   docs-ws-api.xsd
+
+
+
+   eis-fs-ws-api.xsd
+
+   
+
+
+   fcsControl99.xsd
+

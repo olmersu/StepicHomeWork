@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- EIS SOAP Messages Integration Scheme, version 7.0.6, create date 12.01.2017 -->
+<xs:schema xmlns="http://zakupki.gov.ru/oos/signIncoming/soap/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:si="http://zakupki.gov.ru/oos/signIncoming/1" targetNamespace="http://zakupki.gov.ru/oos/signIncoming/soap/messages" elementFormDefault="qualified">
+	<xs:import namespace="http://zakupki.gov.ru/oos/signIncoming/1" schemaLocation="eisSignIncoming.xsd"/>
+	<xs:element name="receiveRbgRequest" type="receiveRbgRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRbg Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRbgResponse" type="resultResponseType"/>
+	<xs:element name="receiveRpgRequest" type="receiveRpgRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRpg Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRpgResponse" type="resultResponseType"/>
+	<xs:element name="receiveRpzRequest" type="receiveRpzRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRpz Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRpzResponse" type="resultResponseType"/>
+	<xs:element name="receivePrizRequest" type="receivePrizRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receivePriz Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receivePrizResponse" type="resultResponseType"/>
+	<xs:element name="receiveRkRequest" type="receiveRkRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRkResponse" type="resultResponseType"/>
+	<xs:element name="receiveOzRequest" type="receiveOzRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveOz Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveOzResponse" type="resultResponseType"/>
+	<xs:element name="receiveOokzRequest" type="receiveOokzRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveOokz Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveOokzResponse" type="resultResponseType"/>
+	<xs:element name="receiveRdiRequest" type="receiveRdiRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRdi Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRdiResponse" type="resultResponseType"/>
+	<xs:element name="receiveZcRequest" type="receiveZcRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveZc Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveZcResponse" type="resultResponseType"/>
+	<xs:element name="receiveRgRequest" type="receiveRgRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRg Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRgResponse" type="resultResponseType"/>
+	<xs:element name="receiveRppRequest" type="receiveRppRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRpp Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRppResponse" type="resultResponseType"/>
+	<xs:element name="receiveRvpRequest" type="receiveRvpRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRvp Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRvpResponse" type="resultResponseType"/>
+	<xs:element name="receiveRrkRequest" type="receiveRrkRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRrk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRrkResponse" type="resultResponseType"/>
+	<xs:element name="receiveRppOvkRequest" type="receiveRppOvkRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRppOvk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRppOvkResponse" type="resultResponseType"/>
+	<xs:element name="receiveRvpOvkRequest" type="receiveRvpOvkRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRvpOvk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRvpOvkResponse" type="resultResponseType"/>
+	<xs:element name="receiveRrkOvkRequest" type="receiveRrkOvkRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRrkOvk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRrkOvkResponse" type="resultResponseType"/>
+	<xs:element name="receiveRraRequest" type="receiveRraRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveRraOvk Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveRraResponse" type="resultResponseType"/>
+	<xs:element name="receiveBusinessControlRequest" type="receiveBusinessControlRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveBusinessControl Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="receiveBusinessControlResponse" type="resultResponseType"/>
+	<xs:element name="getProcessingResultRequest" type="getProcessingResultRequestType">
+		<xs:annotation>
+			<xs:documentation>Документы, принимаемые в составе метода receiveBusinessControl Web-сервиса приема подписанных сведений на ЕИС</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="getProcessingResultResponse" type="resultResponseType"/>
+	<xs:complexType name="receiveRbgRequestType">
+		<xs:choice>
+			<xs:element name="bankGuaranteeTerminationInvalid" type="si:bankGuaranteeTerminationInvalid"/>
+			<xs:element name="bankGuaranteeTermination" type="si:bankGuaranteeTermination"/>
+			<xs:element name="bankGuaranteeReturnInvalid" type="si:bankGuaranteeReturnInvalid"/>
+			<xs:element name="bankGuaranteeReturn" type="si:bankGuaranteeReturn"/>
+			<xs:element name="bankGuaranteeRefusalInvalid" type="si:bankGuaranteeRefusalInvalid"/>
+			<xs:element name="bankGuaranteeRefusal" type="si:bankGuaranteeRefusal"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRpgRequestType">
+		<xs:choice>
+			<xs:element name="tenderPlan" type="si:tenderPlan"/>
+			<xs:element name="tenderPlan2017" type="si:tenderPlan2017"/>
+			<xs:element name="tenderPlanChange" type="si:tenderPlanChange"/>
+			<xs:element name="tenderPlanChange2017" type="si:tenderPlanChange2017"/>
+			<xs:element name="tenderPlanCancel" type="si:tenderPlanCancel"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRpzRequestType">
+		<xs:choice>
+			<xs:element name="sketchPlan" type="si:sketchPlan"/>
+			<xs:element name="sketchPlanExecution" type="si:sketchPlanExecution"/>
+			<xs:element name="purchasePlan" type="si:purchasePlan"/>
+			<xs:element name="purchasePlanExecution" type="si:purchasePlanExecution"/>
+			<xs:element name="purchasePlanChange" type="si:purchasePlanChange"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receivePrizRequestType">
+		<xs:choice>
+			<xs:element name="notificationCancelFailure" type="si:notificationCancelFailure"/>
+			<xs:element name="notificationZP" type="si:notificationZP"/>
+			<xs:element name="notificationEFDateChange" type="si:notificationEFDateChange"/>
+			<xs:element name="notificationZK" type="si:notificationZK"/>
+			<xs:element name="notificationOKOU" type="si:notificationOKOU"/>
+			<xs:element name="notificationPO" type="si:notificationPO"/>
+			<xs:element name="notificationOKD" type="si:notificationOKD"/>
+			<xs:element name="notificationZakA" type="si:notificationZakA"/>
+			<xs:element name="notificationZakK" type="si:notificationZakK"/>
+			<xs:element name="notificationOK" type="si:notificationOK"/>
+			<xs:element name="notificationZakKOU" type="si:notificationZakKOU"/>
+			<xs:element name="notificationEF" type="si:notificationEF"/>
+			<xs:element name="notificationZakKD" type="si:notificationZakKD"/>
+			<xs:element name="notificationEP" type="si:notificationEP"/>
+			<xs:element name="notification111" type="si:notification111"/>
+			<xs:element name="notificationLotCancel" type="si:notificationLotCancel"/>
+			<xs:element name="notificationCancel" type="si:notificationCancel"/>
+			<xs:element name="notificationOrgChange" type="si:notificationOrgChange"/>
+			<xs:element name="notificationLotChange" type="si:notificationLotChange"/>
+			<xs:element name="clarification" type="si:clarification"/>
+			<xs:element name="purchaseProlongationOK" type="si:purchaseProlongationOK"/>
+			<xs:element name="purchaseProlongationZK" type="si:purchaseProlongationZK"/>
+			<xs:element name="purchaseDocument" type="si:purchaseDocument"/>
+			<xs:element name="purchaseDocumentCancel" type="si:purchaseDocumentCancel"/>
+			<xs:element name="protocolPO" type="si:protocolPO"/>
+			<xs:element name="protocolOK2" type="si:protocolOK2"/>
+			<xs:element name="protocolOK1" type="si:protocolOK1"/>
+			<xs:element name="protocolOKOU3" type="si:protocolOKOU3"/>
+			<xs:element name="protocolOKOU2" type="si:protocolOKOU2"/>
+			<xs:element name="protocolOKOU1" type="si:protocolOKOU1"/>
+			<xs:element name="protocolOKD1" type="si:protocolOKD1"/>
+			<xs:element name="protocolOKD2" type="si:protocolOKD2"/>
+			<xs:element name="protocolOKD3" type="si:protocolOKD3"/>
+			<xs:element name="protocolOKD4" type="si:protocolOKD4"/>
+			<xs:element name="protocolOKD5" type="si:protocolOKD5"/>
+			<xs:element name="protocolZK" type="si:protocolZK"/>
+			<xs:element name="protocolZPExtract" type="si:protocolZPExtract"/>
+			<xs:element name="protocolZPFinal" type="si:protocolZPFinal"/>
+			<xs:element name="protocolZP" type="si:protocolZP"/>
+			<xs:element name="protocolZKBI" type="si:protocolZKBI"/>
+			<xs:element name="protocolCancel" type="si:protocolCancel"/>
+			<xs:element name="protocolOKDSingleApp" type="si:protocolOKDSingleApp"/>
+			<xs:element name="protocolOKOUSingleApp" type="si:protocolOKOUSingleApp"/>
+			<xs:element name="protocolZKAfterProlong" type="si:protocolZKAfterProlong"/>
+			<xs:element name="protocolOKSingleApp" type="si:protocolOKSingleApp"/>
+			<xs:element name="protocolDeviation" type="si:protocolDeviation"/>
+			<xs:element name="protocolEvasion" type="si:protocolEvasion"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRkRequestType">
+		<xs:choice>
+			<xs:element name="contractProcedure" type="si:contractProcedure"/>
+			<xs:element name="contractProcedureCancel" type="si:contractProcedureCancel"/>
+			<xs:element name="contract" type="si:contract"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveOzRequestType">
+		<xs:choice>
+			<xs:element name="customerReportContractExecution" type="si:customerReportContractExecution"/>
+			<xs:element name="customerReportContractExecutionInvalid" type="si:customerReportContractExecutionInvalid"/>
+			<xs:element name="customerReportSingleContractor" type="si:customerReportSingleContractor"/>
+			<xs:element name="customerReportSingleContractorInvalid" type="si:customerReportSingleContractorInvalid"/>
+			<xs:element name="customerReportBigProjectMonitoring" type="si:customerReportBigProjectMonitoring"/>
+			<xs:element name="customerReportBigProjectMonitoringInvalid" type="si:customerReportBigProjectMonitoringInvalid"/>
+			<xs:element name="customerReportSmallScaleBusiness" type="si:customerReportSmallScaleBusiness"/>
+			<xs:element name="customerReportSmallScaleBusinessInvalid" type="si:customerReportSmallScaleBusinessInvalid"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveOokzRequestType">
+		<xs:choice>
+			<xs:element name="publicDiscussionLargePurchasePhase1" type="si:publicDiscussionLargePurchasePhase1"/>
+			<xs:element name="publicDiscussionLargePurchasePhase2" type="si:publicDiscussionLargePurchasePhase2"/>
+			<xs:element name="publicDiscussionSuspensionPhase1" type="si:publicDiscussionSuspensionPhase1"/>
+			<xs:element name="publicDiscussionSuspensionPhase2" type="si:publicDiscussionSuspensionPhase2"/>
+			<xs:element name="publicDiscussionAnswer" type="si:publicDiscussionAnswer"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRdiRequestType">
+		<xs:choice>
+			<xs:element name="addInfoInvalid" type="si:addInfoInvalid"/>
+			<xs:element name="addInfo" type="si:addInfo"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveZcRequestType">
+		<xs:choice>
+			<xs:element name="requestForQuotationCancel" type="si:requestForQuotationCancel"/>
+			<xs:element name="requestForQuotation" type="si:requestForQuotation"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRppRequestType">
+		<xs:choice>
+			<xs:element name="checkPlan" type="si:checkPlan"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRvpRequestType">
+		<xs:choice>
+			<xs:element name="unplannedCheck" type="si:unplannedCheck"/>
+			<xs:element name="unplannedCheckCancel" type="si:unplannedCheckCancel"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRrkRequestType">
+		<xs:choice>
+			<xs:element name="checkResult" type="si:checkResult"/>
+			<xs:element name="checkResultCancel" type="si:checkResultCancel"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRppOvkRequestType">
+		<xs:choice>
+			<xs:element name="eventPlan" type="si:eventPlan"/>
+			<xs:element name="eventPlanProject" type="si:eventPlanProject"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRvpOvkRequestType">
+		<xs:choice>
+			<xs:element name="unplannedEvent" type="si:unplannedEvent"/>
+			<xs:element name="unplannedEventProject" type="si:unplannedEventProject"/>
+			<xs:element name="unplannedEventCancel" type="si:unplannedEventCancel"/>
+			<xs:element name="unplannedEventCancelProject" type="si:unplannedEventCancelProject"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRrkOvkRequestType">
+		<xs:choice>
+			<xs:element name="eventResult" type="si:eventResult"/>
+			<xs:element name="eventResultProject" type="si:eventResultProject"/>
+			<xs:element name="eventResultCancel" type="si:eventResultCancel"/>
+			<xs:element name="eventResultCancelProject" type="si:eventResultCancelProject"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRraRequestType">
+		<xs:choice>
+			<xs:element name="auditResult" type="si:auditResult"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveRgRequestType">
+		<xs:choice>
+			<xs:element name="complaint" type="si:complaint"/>
+			<xs:element name="complaintCancel" type="si:complaintCancel"/>
+			<xs:element name="complaintGroup" type="si:complaintGroup"/>
+			<xs:element name="electronicComplaint" type="si:electronicComplaint"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="receiveBusinessControlRequestType">
+		<xs:choice>
+			<xs:element name="businessControl" type="si:nsiBusinessControl"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="getProcessingResultRequestType">
+		<xs:sequence>
+			<xs:element name="processingResultRequest" type="si:processingResultRequest"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="resultResponseType">
+		<xs:choice>
+			<xs:element name="processingResult" type="si:processingResultType"/>
+			<xs:element name="processingProjectResult" type="si:processingProjectResultType"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:schema>
